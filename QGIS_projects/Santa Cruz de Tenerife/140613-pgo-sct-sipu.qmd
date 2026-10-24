@@ -1,0 +1,69 @@
+---
+title: "Clasificación del Suelo en Santa Cruz de Tenerife"
+author: "Tomas Gonzalez"
+format: 
+  pdf:
+    geometry:
+      - landscape
+      - margin=1in
+project:
+  type: default
+  execute-dir: project
+---
+
+```{r setup , echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+message(getwd())
+```
+## Clasificación del Suelo en Santa Cruz de Tenerife
+![Alt text](../img/mapa_santa_cruz_orto.png)
+
+## Subclases de Suelo en Santa Cruz de Tenerife
+
+![PGO-SC-SIPU](../img/All.png)
+
+
+![Alt text](../img/suelo_reagrupado.png)
+
+## Tabla de Suelo Agrupado
+
+```{r}
+#| label: suelo_agrupado
+#| echo: false
+#| message: false
+#| warning: false
+
+library(here)
+library(dplyr)
+# install.packages("kableExtra")
+library(kableExtra)
+
+suelo_agrupado <- read.csv(here("data", "suelo_agrupado.csv"))
+
+suelo_agrupado |>
+  # 1. Select only the columns needed for the presentation to save space
+  select(ETIQUETA, TXTPLAN, area_ha) |> 
+  
+  # 2. Build the basic table using kbl() (which replaces knitr::kable)
+  kbl(
+    booktabs = TRUE, # Cleaner LaTeX table style
+    col.names = c("Etiqueta", "Descripción", "Área (ha)"),
+    digits = 1       # Round decimal numbers
+  ) |>
+  
+  # 3. Apply LaTeX styling to scale down and shrink the font
+  kable_styling(
+    latex_options = c("scale_down"),
+    font_size = 6
+  ) |>
+  
+  # 4. Force the long text description column to wrap to a specific width
+  column_spec(2, width = "5.5cm")
+```
+
+![Alt text](../img/CLA+Callejero%20Infraestructuras%20y%20Minas.png)
+
+![label](../img/CLA+Callejero%20Norte%20de%20la%20Rambla,%20Valleseco%20y%20Maria%20Jimenez.png%0D) 
+![label](../img/CLA+Callejero%20El%20Sobradillo%20-%20A%C3%B1aza.png%0D) 
+![label](../img/CLA+Callejero%20Zona%20Centro.png%0D) 
+![label](../img/CLA+Callejero%20San%20Andres%20-%20Playa%20de%20Las%20Teresitas.png%0D) 

@@ -1,0 +1,137 @@
+---
+title: "El Barranco de Santos"
+subtitle: "De Cicatriz Urbana a Sistema General Verde"
+author: "Análisis del Plan General de Ordenación"
+date: last-modified
+lang: es
+format: 
+  beamer:
+    aspectratio: 169
+    theme: Madrid
+    colortheme: seahorse
+    navigation: horizontal
+---
+
+# Introducción Histórica
+
+## El Barranco como Límite
+* **La Cicatriz Física:** Históricamente, el Barranco de Santos ha funcionado como una barrera natural que divide Santa Cruz de Tenerife.
+* **Uso Tradicional:** Espacio marginal, infrautilizado y, en tramos, degradado.
+* **El Cambio de Paradigma:** El nuevo planeamiento busca transformar este "vacío" en el eje articulador de la ciudad.
+
+<!-- # Análisis Técnico (Datos FIP) -->
+
+<!-- ## La Estructura del Plan
+* **Clasificación:** El barranco se define como **Sistema General - Parque Urbano (SG-PU)**.
+* **Jerarquía de Datos:** * El análisis del archivo FIP revela una estructura anidada.
+    * Ejemplo: *Área Estructural 2 > Ámbito 2.14 (Salamanca) > Barranco*.
+* **Identificación Geográfica:** El código de entidad `0000000795` delimita el ámbito específico de intervención en el tramo de Salamanca.
+
+## Visualización en QGIS
+* **La Capa de Estructura (EST):** Identificación de geometrías clave.
+* **Capa 31 (CAD):** Representación de las líneas de servidumbre y límites del sistema general.
+* **Intersección:** El conflicto entre el suelo residencial consolidado y la ambición del parque público. -->
+
+# Gestión Urbanística
+
+ En el planeamiento español (y muy específicamente en el de Santa Cruz de Tenerife), definen los **Sistemas de Actuación**. Básicamente, indican qué mecanismo legal se usará para urbanizar ese suelo, quién pone el dinero y quién lidera el proceso.
+
+
+* **ASEXPR: Sistema de Expropiación** Es el sistema de iniciativa **pública** pura. 
+<!-- La Administración (el Ayuntamiento) adquiere la propiedad del suelo mediante el pago de un justiprecio a los dueños para ejecutar las obras de interés público (como un parque o el propio Barranco). Si un puente está en una zona `ASEXPR`, significa que el Ayuntamiento tomó el control total del suelo para asegurar la infraestructura. -->
+
+* **ASCOOP: Sistema de Cooperación** Iniciativa **pública**, pero financiada por los **privados**.
+
+<!-- El Ayuntamiento dirige la urbanización y adjudica las obras, pero los propietarios del suelo pagan los costes proporcionalmente. Es común en zonas donde el tejido urbano está fragmentado y el Ayuntamiento tiene que "poner orden" para que la infraestructura avance. -->
+
+* **AACONV: Sistema de Concierto** Es un sistema **híbrido** (público-privado).
+
+<!-- Existe un acuerdo (concierto) entre la Administración y los propietarios. Los dueños se comprometen a urbanizar bajo unas condiciones pactadas. Es una evolución del antiguo sistema de compensación pero con mayor control público. -->
+<!-- Indica áreas donde hubo una negociación previa para ceder el suelo del barranco a cambio de derechos de edificación en las parcelas colindantes. -->
+
+* **ASPRIV: Sistema Privado (generalmente Compensación)** Iniciativa **privada** bajo supervisión pública.
+
+<!-- Los propietarios se agrupan en una "Junta de Compensación". Ellos mismos redactan el proyecto, contratan las obras y ceden obligatoriamente el suelo de los viales y parques al Ayuntamiento. -->
+<!-- Si un puente toca una zona `ASPRIV`, lo más probable es que esa estructura fuera construida (o cedida) por promotores privados como parte de la urbanización de los edificios vecinos. -->
+
+<!-- ---
+
+### ¿Por qué es importante para tu inventario del Barranco? -->
+
+<!-- * Los puentes en zonas **`ASEXPR`** suelen ser las grandes infraestructuras públicas estratégicas.
+* Los puentes en zonas **`ASPRIV`** o **`AACONV`** son los que explican esos "solapes residenciales"  ya que la infraestructura nació de la mano de la promoción de viviendas. -->
+
+<!-- > **Tip para tu Beamer:** No pongas solo las siglas. Usa términos como "Gestión por Expropiación" o "Iniciativa Privada Concertada". Queda mucho más profesional y ayuda a entender por qué el puente tiene ese estatus jurídico.
+
+¿Aparece alguno de estos sistemas con mucha frecuencia en los puentes que más te interesan? Por ejemplo, el **Puente General Serrador** o el **Zurita** suelen estar en entornos de gestión ya consolidada o de expropiación histórica. -->
+
+<!-- # ¿Qué es una Dotación Pública?
+* **Definición:** Suelos destinados a servicios que hacen la ciudad vivible.
+* **El Barranco como Dotación:** Se categoriza como **Espacio Libre**, priorizando el uso ciudadano sobre el lucrativo.
+* **Objetivo:** Recuperación ambiental y creación de itinerarios peatonales.
+
+## Actuación de Ejecución de Sistemas Locales (AESL)
+* **El Mecanismo:** La entidad `0000000141` gestiona la ejecución por tramos.
+* **Cesión de Terrenos:** 1. Los promotores privados ceden el suelo del barranco al Ayuntamiento.
+    2. A cambio, obtienen derechos para edificar en las parcelas colindantes.
+* **Financiación:** El desarrollo del barrio "paga" la construcción del parque. -->
+
+# El Futuro del Barranco
+
+## Un Eje de Resiliencia
+* **Conectividad:** Un corredor verde que une las colinas con el mar.
+* **Sostenibilidad:** Protección de la flora autóctona y gestión de riesgos hidráulicos.
+* **Conclusión:** El Barranco de Santos deja de ser una división para ser el corazón verde de Santa Cruz.
+
+---
+
+# Gestion del Puente Zurita
+![label](PuenteZurita_GES2.png%0D) 
+
+# Gestion del Puente Serrador
+![label](PuenteSerrador_GES2.png%0D) 
+
+# Gestion del Puente Galceran
+![Alt text](PuenteGalceran_GES2.png)
+
+
+# Puente Zurita Uso de Zonas
+![Puente Zurita Uso de Zonas](PuenteZurita_ZUSO.png)
+
+# Puente Galceran Uso de Zonas
+![Puente Galceran Uso de Zonas](PuenteGalceran_ZUSO.png)
+
+# [Puente Serrador Uso de Zonas
+![Puente Serrador Uso de Zonas](PuenteSerrador_ZUSO.png)
+
+# Estructuras
+![](Barranco%20de%20Santos%20Estructuras.png)
+
+# Fotos historicas
+![Alt text](Photos-3-001/La_Concepcion.jpg)
+
+# Fotos historicas
+![label](Photos-3-001/LAVANDERAS%20DEL%20BARRANCO%20SANTOS.jpg%0D) 
+
+# Fotos historicas
+![label](Photos-3-001/13006893.jpg%0D) 
+
+# Fotos historicas
+![label](Photos-3-001/baranco%20santos%20y%20el%20hospital%20de%20san%20jose.jpg%0D) 
+
+# Fotos historicas
+![label](Photos-3-001/Barranco%20de%20Santos%202.jpg%0D)
+
+# Fotos historicas
+![label](Photos-3-001/Barranco%20Santos%206.jpg%0D) 
+
+# Fotos historicas
+![Alt text](Photos-3-001/galderan%20sobre%20barranco%20santos.jpg)
+
+# Fotos historicas
+![Alt text](Photos-3-001/baranco_de_santos_foto.jpg)
+
+# Apéndice: Notas sobre los Datos
+* **Fuente:** Plan General de Ordenación (PGO).
+* **Herramientas:** Extracción mediante scripts de Python y visualización en QGIS.
+* **Gemini AI**

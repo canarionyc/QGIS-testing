@@ -1,0 +1,32 @@
+\documentclass[landscape]{article}
+\usepackage{pgfgantt}
+\usepackage{graphicx} % Required for \resizebox
+
+\begin{document}
+
+\noindent
+\resizebox{\textwidth}{!}{% The '!' keeps the aspect ratio
+\begin{ganttchart}[
+    vgrid,
+    hgrid,
+    time slot format=isodate-yearmonth,
+    x unit=0.5mm % Reduced to keep the text readable before scaling
+]{2010-01}{2024-12}
+\gantttitlecalendar{year} \\
+
+% El Paso Thread
+\ganttgroup{El Paso}{2010-01}{2024-12} \\
+\ganttbar{NNSS}{2010-01}{2013-05} \\
+\ganttbar{PGO Vigente}{2013-05}{2021-09} \\
+\ganttbar[bar/.append style={fill=red!50}]{Erupción / Ley 2/2024}{2021-09}{2024-12} \\
+
+% Los Llanos Thread
+\ganttgroup{Los Llanos}{2010-01}{2024-12} \\
+\ganttbar{PGO 2010}{2010-01}{2015-06} \\
+\ganttbar[bar/.append style={fill=orange!50}]{Anulado (TS)}{2015-06}{2021-09} \\
+\ganttbar[bar/.append style={fill=red!50}]{Erupción / Ley 2/2024}{2021-09}{2024-12}
+
+\end{ganttchart}%
+}
+
+\end{document}

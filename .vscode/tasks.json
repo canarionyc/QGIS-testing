@@ -1,0 +1,44 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "LaTeX: Compile Master_ES.tex (XeLaTeX)",
+            "type": "process",
+            "command": "xelatex",
+            "args": [
+                "-interaction=nonstopmode",
+                "Master_ES.tex"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/QGIS_projects/Santa Cruz de Tenerife"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$xelatex"
+            ]
+        },
+        {
+            "label": "Markdown: Render to PDF (XeLaTeX / Pandoc)",
+            "type": "process",
+            "command": "pandoc",
+            "args": [
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.pdf",
+                "--pdf-engine=xelatex",
+                "-V",
+                "geometry:margin=2cm"
+            ],
+            "group": "build",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": false
+            }
+        }
+    ]
+}

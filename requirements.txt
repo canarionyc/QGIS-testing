@@ -1,0 +1,5 @@
+
+geopandas
+requests
+python-qt5
+xmltodict

@@ -1,0 +1,555 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group expanded="1" checked="Qt::Checked" groupLayer="" name="">
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layer-tree-layer expanded="1" id="CONSTRU_af34ef79_6d12_4dbf_a750_9361f81b528e" checked="Qt::Checked" legend_split_behavior="0" providerKey="ogr" patch_size="-1,-1" name="CONSTRU" source="/vsizip/../data/catastro/38_UA_23012026_SHP/38900uA 38015 SANTA CRUZ DE TENERIFE/38900uA_38015_23012026_CONSTRU.ZIP/CONSTRU.SHP|layername=CONSTRU" legend_exp="">
+      <customproperties>
+        <Option type="Map">
+          <Option value="true" type="bool" name="showFeatureCount"/>
+        </Option>
+      </customproperties>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer autoRefreshMode="Disabled" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" symbologyReferenceScale="-1" readOnly="0" refreshOnNotifyMessage="" simplifyAlgorithm="0" legendPlaceholderImage="" geometry="Polygon" simplifyLocal="0" minScale="100000000" styleCategories="AllStyleCategories" autoRefreshTime="0" refreshOnNotifyEnabled="0" wkbType="MultiPolygon" type="vector" maxScale="0" labelsEnabled="0" simplifyDrawingHints="1">
+      <extent>
+        <xmin>368777.46999999997206032</xmin>
+        <ymin>3143687.22000000020489097</ymin>
+        <xmax>387149.05599999998230487</xmax>
+        <ymax>3161862.87000000011175871</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-16.34176202669850753</xmin>
+        <ymin>28.41302966661828577</ymin>
+        <xmax>-16.15216173178262338</xmax>
+        <ymax>28.57877720657943499</ymax>
+      </wgs84extent>
+      <id>CONSTRU_af34ef79_6d12_4dbf_a750_9361f81b528e</id>
+      <datasource>/vsizip/../data/catastro/38_UA_23012026_SHP/38900uA 38015 SANTA CRUZ DE TENERIFE/38900uA_38015_23012026_CONSTRU.ZIP/CONSTRU.SHP|layername=CONSTRU</datasource>
+      <layername>CONSTRU</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt></wkt>
+          <proj4>+proj=utm +zone=28 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3112</srsid>
+          <srid>32628</srid>
+          <authid>EPSG:32628</authid>
+          <description>WGS 84 / UTM zone 28N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <dates/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt></wkt>
+            <proj4>+proj=utm +zone=28 +datum=WGS84 +units=m +no_defs</proj4>
+            <srsid>3112</srsid>
+            <srid>32628</srid>
+            <authid>EPSG:32628</authid>
+            <description>WGS 84 / UTM zone 28N</description>
+            <projectionacronym>utm</projectionacronym>
+            <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="windows-1252">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal startField="" durationField="" enabled="0" durationUnit="min" endField="" startExpression="" endExpression="" limitMode="0" accumulate="0" fixedDuration="0" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation extrusion="0" respectLayerSymbol="1" zoffset="0" symbology="Line" customToleranceEnabled="1" extrusionEnabled="0" type="IndividualFeatures" zscale="1" binding="Centroid" clamping="Terrain" showMarkerSymbolInSurfacePlots="0">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol force_rhr="0" is_animated="0" type="line" clip_to_extent="1" name="" alpha="1" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" type="QString" name="name"/>
+                <Option name="properties"/>
+                <Option value="collection" type="QString" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleLine" enabled="1" id="{53f6b2b7-2ec8-4fbd-a5ca-ca5a831b1e6b}" locked="0" pass="0">
+              <Option type="Map">
+                <Option value="0" type="QString" name="align_dash_pattern"/>
+                <Option value="square" type="QString" name="capstyle"/>
+                <Option value="5;2" type="QString" name="customdash"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="customdash_map_unit_scale"/>
+                <Option value="MM" type="QString" name="customdash_unit"/>
+                <Option value="0" type="QString" name="dash_pattern_offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="dash_pattern_offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="dash_pattern_offset_unit"/>
+                <Option value="0" type="QString" name="draw_inside_polygon"/>
+                <Option value="bevel" type="QString" name="joinstyle"/>
+                <Option value="232,113,141,255,rgb:0.9098039,0.4431373,0.5529412,1" type="QString" name="line_color"/>
+                <Option value="solid" type="QString" name="line_style"/>
+                <Option value="0.6" type="QString" name="line_width"/>
+                <Option value="MM" type="QString" name="line_width_unit"/>
+                <Option value="0" type="QString" name="offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="offset_unit"/>
+                <Option value="0" type="QString" name="ring_filter"/>
+                <Option value="0" type="QString" name="trim_distance_end"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="trim_distance_end_map_unit_scale"/>
+                <Option value="MM" type="QString" name="trim_distance_end_unit"/>
+                <Option value="0" type="QString" name="trim_distance_start"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="trim_distance_start_map_unit_scale"/>
+                <Option value="MM" type="QString" name="trim_distance_start_unit"/>
+                <Option value="0" type="QString" name="tweak_dash_pattern_on_corners"/>
+                <Option value="0" type="QString" name="use_custom_dash"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="width_map_unit_scale"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol force_rhr="0" is_animated="0" type="fill" clip_to_extent="1" name="" alpha="1" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" type="QString" name="name"/>
+                <Option name="properties"/>
+                <Option value="collection" type="QString" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleFill" enabled="1" id="{95d843ca-dec0-4fd6-9660-c08078690b3d}" locked="0" pass="0">
+              <Option type="Map">
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
+                <Option value="232,113,141,255,rgb:0.9098039,0.4431373,0.5529412,1" type="QString" name="color"/>
+                <Option value="bevel" type="QString" name="joinstyle"/>
+                <Option value="0,0" type="QString" name="offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="offset_unit"/>
+                <Option value="166,81,101,255,rgb:0.6498512,0.3165179,0.3949645,1" type="QString" name="outline_color"/>
+                <Option value="solid" type="QString" name="outline_style"/>
+                <Option value="0.2" type="QString" name="outline_width"/>
+                <Option value="MM" type="QString" name="outline_width_unit"/>
+                <Option value="solid" type="QString" name="style"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+        <profileMarkerSymbol>
+          <symbol force_rhr="0" is_animated="0" type="marker" clip_to_extent="1" name="" alpha="1" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" type="QString" name="name"/>
+                <Option name="properties"/>
+                <Option value="collection" type="QString" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleMarker" enabled="1" id="{4a00ed39-def9-4c12-a16a-fa5efd887312}" locked="0" pass="0">
+              <Option type="Map">
+                <Option value="0" type="QString" name="angle"/>
+                <Option value="square" type="QString" name="cap_style"/>
+                <Option value="232,113,141,255,rgb:0.9098039,0.4431373,0.5529412,1" type="QString" name="color"/>
+                <Option value="1" type="QString" name="horizontal_anchor_point"/>
+                <Option value="bevel" type="QString" name="joinstyle"/>
+                <Option value="diamond" type="QString" name="name"/>
+                <Option value="0,0" type="QString" name="offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="offset_unit"/>
+                <Option value="166,81,101,255,rgb:0.6498512,0.3165179,0.3949645,1" type="QString" name="outline_color"/>
+                <Option value="solid" type="QString" name="outline_style"/>
+                <Option value="0.2" type="QString" name="outline_width"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="outline_width_map_unit_scale"/>
+                <Option value="MM" type="QString" name="outline_width_unit"/>
+                <Option value="diameter" type="QString" name="scale_method"/>
+                <Option value="3" type="QString" name="size"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="size_map_unit_scale"/>
+                <Option value="MM" type="QString" name="size_unit"/>
+                <Option value="1" type="QString" name="vertical_anchor_point"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileMarkerSymbol>
+      </elevation>
+      <renderer-v2 referencescale="-1" forceraster="0" enableorderby="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol force_rhr="0" is_animated="0" type="fill" clip_to_extent="1" name="0" alpha="1" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" type="QString" name="name"/>
+                <Option name="properties"/>
+                <Option value="collection" type="QString" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleFill" enabled="1" id="{4ec9b6cd-4c40-42fe-9b60-e9a16d53f2e3}" locked="0" pass="0">
+              <Option type="Map">
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
+                <Option value="255,158,23,255,rgb:1,0.6196078,0.0901961,1" type="QString" name="color"/>
+                <Option value="bevel" type="QString" name="joinstyle"/>
+                <Option value="0,0" type="QString" name="offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="offset_unit"/>
+                <Option value="35,35,35,255,rgb:0.1372549,0.1372549,0.1372549,1" type="QString" name="outline_color"/>
+                <Option value="solid" type="QString" name="outline_style"/>
+                <Option value="0.26" type="QString" name="outline_width"/>
+                <Option value="MM" type="QString" name="outline_width_unit"/>
+                <Option value="solid" type="QString" name="style"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+        <data-defined-properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data-defined-properties>
+      </renderer-v2>
+      <selection mode="Default">
+        <selectionColor invalid="1"/>
+      </selection>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="MAPA" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DELEGACIO" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MUNICIPIO" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MASA" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PARCELA" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="HOJA" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TIPO" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CONSTRU" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COORX" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COORY" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NUMSYMBOL" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AREA" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FECHAALTA" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FECHABAJA" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NINTERNO" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PCAT1" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PCAT2" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="EJERCICIO" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NUM_EXP" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CONTROL" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="REFCAT" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="MAPA" name=""/>
+        <alias index="1" field="DELEGACIO" name=""/>
+        <alias index="2" field="MUNICIPIO" name=""/>
+        <alias index="3" field="MASA" name=""/>
+        <alias index="4" field="PARCELA" name=""/>
+        <alias index="5" field="HOJA" name=""/>
+        <alias index="6" field="TIPO" name=""/>
+        <alias index="7" field="CONSTRU" name=""/>
+        <alias index="8" field="COORX" name=""/>
+        <alias index="9" field="COORY" name=""/>
+        <alias index="10" field="NUMSYMBOL" name=""/>
+        <alias index="11" field="AREA" name=""/>
+        <alias index="12" field="FECHAALTA" name=""/>
+        <alias index="13" field="FECHABAJA" name=""/>
+        <alias index="14" field="NINTERNO" name=""/>
+        <alias index="15" field="PCAT1" name=""/>
+        <alias index="16" field="PCAT2" name=""/>
+        <alias index="17" field="EJERCICIO" name=""/>
+        <alias index="18" field="NUM_EXP" name=""/>
+        <alias index="19" field="CONTROL" name=""/>
+        <alias index="20" field="REFCAT" name=""/>
+      </aliases>
+      <defaults>
+        <default field="MAPA" expression="" applyOnUpdate="0"/>
+        <default field="DELEGACIO" expression="" applyOnUpdate="0"/>
+        <default field="MUNICIPIO" expression="" applyOnUpdate="0"/>
+        <default field="MASA" expression="" applyOnUpdate="0"/>
+        <default field="PARCELA" expression="" applyOnUpdate="0"/>
+        <default field="HOJA" expression="" applyOnUpdate="0"/>
+        <default field="TIPO" expression="" applyOnUpdate="0"/>
+        <default field="CONSTRU" expression="" applyOnUpdate="0"/>
+        <default field="COORX" expression="" applyOnUpdate="0"/>
+        <default field="COORY" expression="" applyOnUpdate="0"/>
+        <default field="NUMSYMBOL" expression="" applyOnUpdate="0"/>
+        <default field="AREA" expression="" applyOnUpdate="0"/>
+        <default field="FECHAALTA" expression="" applyOnUpdate="0"/>
+        <default field="FECHABAJA" expression="" applyOnUpdate="0"/>
+        <default field="NINTERNO" expression="" applyOnUpdate="0"/>
+        <default field="PCAT1" expression="" applyOnUpdate="0"/>
+        <default field="PCAT2" expression="" applyOnUpdate="0"/>
+        <default field="EJERCICIO" expression="" applyOnUpdate="0"/>
+        <default field="NUM_EXP" expression="" applyOnUpdate="0"/>
+        <default field="CONTROL" expression="" applyOnUpdate="0"/>
+        <default field="REFCAT" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint field="MAPA" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="DELEGACIO" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="MUNICIPIO" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="MASA" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="PARCELA" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="HOJA" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="TIPO" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="CONSTRU" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="COORX" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="COORY" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="NUMSYMBOL" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="AREA" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="FECHAALTA" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="FECHABAJA" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="NINTERNO" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="PCAT1" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="PCAT2" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="EJERCICIO" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="NUM_EXP" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="CONTROL" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="REFCAT" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="MAPA" exp="" desc=""/>
+        <constraint field="DELEGACIO" exp="" desc=""/>
+        <constraint field="MUNICIPIO" exp="" desc=""/>
+        <constraint field="MASA" exp="" desc=""/>
+        <constraint field="PARCELA" exp="" desc=""/>
+        <constraint field="HOJA" exp="" desc=""/>
+        <constraint field="TIPO" exp="" desc=""/>
+        <constraint field="CONSTRU" exp="" desc=""/>
+        <constraint field="COORX" exp="" desc=""/>
+        <constraint field="COORY" exp="" desc=""/>
+        <constraint field="NUMSYMBOL" exp="" desc=""/>
+        <constraint field="AREA" exp="" desc=""/>
+        <constraint field="FECHAALTA" exp="" desc=""/>
+        <constraint field="FECHABAJA" exp="" desc=""/>
+        <constraint field="NINTERNO" exp="" desc=""/>
+        <constraint field="PCAT1" exp="" desc=""/>
+        <constraint field="PCAT2" exp="" desc=""/>
+        <constraint field="EJERCICIO" exp="" desc=""/>
+        <constraint field="NUM_EXP" exp="" desc=""/>
+        <constraint field="CONTROL" exp="" desc=""/>
+        <constraint field="REFCAT" exp="" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip enabled="1"></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>

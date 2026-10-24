@@ -1,0 +1,42 @@
+\section{Diagnóstico del Planeamiento y Unidades de Actuación}
+
+A partir de la base de datos espacial normalizada del Plan General de Ordenación (formato FIP 2.0 \cite{sitcan_planeamiento_2026} integrado en PostGIS mediante el entorno de computación agéntica Google Antigravity \cite{google_antigravity_2026}), se ha analizado la estructura de gestión del suelo en el municipio.
+
+\subsection{Distribución por Categorías del Suelo}
+
+El análisis de las Unidades de Actuación (UAs) delimitadas en el término municipal refleja una concentración determinante en el suelo urbano sujeto a procesos de regularización y renovación:
+
+\begin{table}[htbp]
+  \centering
+  \caption{Resumen de Unidades de Actuación por Categoría del Suelo}
+  \label{tab:resumen_suelo}
+  \vspace{0.2cm}
+  \input{tables/table_land_classes.tex}
+\end{table}
+
+De las 128 unidades delimitadas, el \textbf{97,7\%} (125 UAs) corresponden a \textbf{Suelo Urbano No Consolidado (SUNC)}, sumando una capacidad edificatoria lucrativa de más de 1,55 millones de $m^2c$. Por su parte, el \textbf{Suelo Urbanizable Sectorizado (SUS)} concentra únicamente 3 unidades (ubicadas en el ámbito residencial de El Tablero), con 80.778 $m^2c$.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.92\textwidth]{figures/chart_land_classes.pdf}
+  \caption{Capacidad edificatoria y número de UAs por categoría de suelo.}
+  \label{fig:chart_suelo}
+\end{figure}
+
+\subsection{Sistemas de Ejecución y Gestión Urbanística}
+
+El régimen de desarrollo de las actuaciones determina el grado de iniciativa privada frente a la intervención directa de la administración municipal:
+
+\begin{table}[htbp]
+  \centering
+  \caption{Distribución de Unidades de Actuación según Sistema de Ejecución}
+  \label{tab:resumen_sistemas}
+  \vspace{0.2cm}
+  \input{tables/table_execution_systems.tex}
+\end{table}
+
+\begin{itemize}
+  \item \textbf{Compensación / Ejecución Privada (58,6\%)}: Representa el mecanismo predominante, acumulando más de 1,16 millones de $m^2c$ edificables donde los propietarios asumen la redacción de los proyectos de urbanización y la cesión de aprovechamientos.
+  \item \textbf{Cooperación Pública (35,2\%)}: Abarca 45 unidades (463.292 $m^2c$), donde la ejecución de las obras corresponde al Ayuntamiento a costa de los propietarios.
+  \item \textbf{Expropiación y Convenios (3,9\%)}: Reservados para ámbitos con afecciones de sistemas generales o actuaciones asistemáticas singulares.
+\end{itemize}

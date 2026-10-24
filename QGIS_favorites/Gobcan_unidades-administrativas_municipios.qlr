@@ -1,0 +1,842 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group checked="Qt::Checked" expanded="1" name="" groupLayer="">
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layer-tree-layer legend_split_behavior="0" legend_exp="" id="gobcan_unidades_estadisticas_nucleos_dd5ca20e_3522_4a52_a0e7_19cbc7b47e81" providerKey="ogr" checked="Qt::Checked" source="C:/dev/QGIS-testing/data/gobcan_nucleos/gobcan_unidades-estadisticas_nucleos.shp" expanded="1" name="gobcan_unidades-estadisticas_nucleos" patch_size="-1,-1">
+      <customproperties>
+        <Option type="Map">
+          <Option type="bool" value="true" name="showFeatureCount"/>
+        </Option>
+      </customproperties>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer readOnly="0" wkbType="MultiPolygon" type="vector" minScale="100000000" legendPlaceholderImage="" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" simplifyDrawingTol="1" maxScale="0" labelsEnabled="0" refreshOnNotifyMessage="" simplifyMaxScale="1" symbologyReferenceScale="-1" simplifyDrawingHints="1" simplifyLocal="1" styleCategories="AllStyleCategories" autoRefreshTime="0" geometry="Polygon">
+      <extent>
+        <xmin>188320.85712607577443123</xmin>
+        <ymin>3060637.95408236980438232</ymin>
+        <xmax>661751.13106907904148102</xmax>
+        <ymax>3255061.51103837043046951</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-18.21112733206231127</xmin>
+        <ymin>27.63391916570776274</ymin>
+        <xmax>-13.33273736855213976</xmax>
+        <ymax>29.4248765483473278</ymax>
+      </wgs84extent>
+      <id>gobcan_unidades_estadisticas_nucleos_dd5ca20e_3522_4a52_a0e7_19cbc7b47e81</id>
+      <datasource>C:/dev/QGIS-testing/data/gobcan_nucleos/gobcan_unidades-estadisticas_nucleos.shp</datasource>
+      <layername>gobcan_unidades-estadisticas_nucleos</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>PROJCRS["WGS 84 / UTM zone 28N",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["UTM zone 28N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-15,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Navigation and medium accuracy spatial referencing."],AREA["Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara."],BBOX[0,-18,84,-12]],ID["EPSG",32628]]</wkt>
+          <proj4>+proj=utm +zone=28 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3112</srsid>
+          <srid>32628</srid>
+          <authid>EPSG:32628</authid>
+          <description>WGS 84 / UTM zone 28N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <dates/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt>PROJCRS["WGS 84 / UTM zone 28N",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["UTM zone 28N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-15,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Navigation and medium accuracy spatial referencing."],AREA["Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara."],BBOX[0,-18,84,-12]],ID["EPSG",32628]]</wkt>
+            <proj4>+proj=utm +zone=28 +datum=WGS84 +units=m +no_defs</proj4>
+            <srsid>3112</srsid>
+            <srid>32628</srid>
+            <authid>EPSG:32628</authid>
+            <description>WGS 84 / UTM zone 28N</description>
+            <projectionacronym>utm</projectionacronym>
+            <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minz="0" maxx="-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" minx="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" miny="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" maxy="-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" maxz="0" crs="EPSG:32628" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal mode="0" startField="" endExpression="" startExpression="" enabled="0" limitMode="0" durationUnit="min" endField="" durationField="FECHA" accumulate="0" fixedDuration="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation extrusion="0" type="IndividualFeatures" binding="Centroid" respectLayerSymbol="1" zscale="1" extrusionEnabled="0" showMarkerSymbolInSurfacePlots="0" zoffset="0" clamping="Terrain" customToleranceEnabled="1" symbology="Line">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol type="line" force_rhr="0" frame_rate="10" clip_to_extent="1" is_animated="0" name="" alpha="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleLine" id="{a1606019-e416-43c6-8475-80623ed7e528}" enabled="1" pass="0" locked="0">
+              <Option type="Map">
+                <Option type="QString" value="0" name="align_dash_pattern"/>
+                <Option type="QString" value="square" name="capstyle"/>
+                <Option type="QString" value="5;2" name="customdash"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="customdash_map_unit_scale"/>
+                <Option type="QString" value="MM" name="customdash_unit"/>
+                <Option type="QString" value="0" name="dash_pattern_offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="dash_pattern_offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="dash_pattern_offset_unit"/>
+                <Option type="QString" value="0" name="draw_inside_polygon"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="190,178,151,255,rgb:0.745098,0.6980392,0.5921569,1" name="line_color"/>
+                <Option type="QString" value="solid" name="line_style"/>
+                <Option type="QString" value="0.6" name="line_width"/>
+                <Option type="QString" value="MM" name="line_width_unit"/>
+                <Option type="QString" value="0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="0" name="ring_filter"/>
+                <Option type="QString" value="0" name="trim_distance_end"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_end_map_unit_scale"/>
+                <Option type="QString" value="MM" name="trim_distance_end_unit"/>
+                <Option type="QString" value="0" name="trim_distance_start"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_start_map_unit_scale"/>
+                <Option type="QString" value="MM" name="trim_distance_start_unit"/>
+                <Option type="QString" value="0" name="tweak_dash_pattern_on_corners"/>
+                <Option type="QString" value="0" name="use_custom_dash"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="width_map_unit_scale"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol type="fill" force_rhr="0" frame_rate="10" clip_to_extent="1" is_animated="0" name="" alpha="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleFill" id="{c0337119-ed34-42aa-b770-4d571a2dc332}" enabled="1" pass="0" locked="0">
+              <Option type="Map">
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
+                <Option type="QString" value="190,178,151,255,rgb:0.745098,0.6980392,0.5921569,1" name="color"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="136,127,108,255,rgb:0.5322042,0.4985885,0.4229648,1" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0.2" name="outline_width"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="solid" name="style"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+        <profileMarkerSymbol>
+          <symbol type="marker" force_rhr="0" frame_rate="10" clip_to_extent="1" is_animated="0" name="" alpha="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleMarker" id="{22a2c45e-105c-487e-be57-aa5017c593b0}" enabled="1" pass="0" locked="0">
+              <Option type="Map">
+                <Option type="QString" value="0" name="angle"/>
+                <Option type="QString" value="square" name="cap_style"/>
+                <Option type="QString" value="190,178,151,255,rgb:0.745098,0.6980392,0.5921569,1" name="color"/>
+                <Option type="QString" value="1" name="horizontal_anchor_point"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="diamond" name="name"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="136,127,108,255,rgb:0.5322042,0.4985885,0.4229648,1" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0.2" name="outline_width"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="diameter" name="scale_method"/>
+                <Option type="QString" value="3" name="size"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
+                <Option type="QString" value="MM" name="size_unit"/>
+                <Option type="QString" value="1" name="vertical_anchor_point"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileMarkerSymbol>
+      </elevation>
+      <renderer-v2 type="singleSymbol" symbollevels="0" enableorderby="0" referencescale="-1" forceraster="0">
+        <symbols>
+          <symbol type="fill" force_rhr="0" frame_rate="10" clip_to_extent="1" is_animated="0" name="0" alpha="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleLine" id="{74aacb6b-0bb7-4524-9161-675301af1ede}" enabled="1" pass="0" locked="0">
+              <Option type="Map">
+                <Option type="QString" value="0" name="align_dash_pattern"/>
+                <Option type="QString" value="square" name="capstyle"/>
+                <Option type="QString" value="5;2" name="customdash"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="customdash_map_unit_scale"/>
+                <Option type="QString" value="MM" name="customdash_unit"/>
+                <Option type="QString" value="0" name="dash_pattern_offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="dash_pattern_offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="dash_pattern_offset_unit"/>
+                <Option type="QString" value="0" name="draw_inside_polygon"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="31,120,180,255,rgb:0.1215686,0.4705882,0.7058824,1" name="line_color"/>
+                <Option type="QString" value="solid" name="line_style"/>
+                <Option type="QString" value="0.26" name="line_width"/>
+                <Option type="QString" value="MM" name="line_width_unit"/>
+                <Option type="QString" value="0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="0" name="ring_filter"/>
+                <Option type="QString" value="0" name="trim_distance_end"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_end_map_unit_scale"/>
+                <Option type="QString" value="MM" name="trim_distance_end_unit"/>
+                <Option type="QString" value="0" name="trim_distance_start"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_start_map_unit_scale"/>
+                <Option type="QString" value="MM" name="trim_distance_start_unit"/>
+                <Option type="QString" value="0" name="tweak_dash_pattern_on_corners"/>
+                <Option type="QString" value="0" name="use_custom_dash"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="width_map_unit_scale"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+        <data-defined-properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </data-defined-properties>
+      </renderer-v2>
+      <selection mode="Default">
+        <selectionColor invalid="1"/>
+        <selectionSymbol>
+          <symbol type="fill" force_rhr="0" frame_rate="10" clip_to_extent="1" is_animated="0" name="" alpha="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleFill" id="{76ad5dcd-c16a-4c34-9f43-bec78639441f}" enabled="1" pass="0" locked="0">
+              <Option type="Map">
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
+                <Option type="QString" value="0,0,255,255,rgb:0,0,1,1" name="color"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="35,35,35,255,rgb:0.1372549,0.1372549,0.1372549,1" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0.26" name="outline_width"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="solid" name="style"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </selectionSymbol>
+      </selection>
+      <customproperties>
+        <Option type="Map">
+          <Option type="List" name="dualview/previewExpressions">
+            <Option type="QString" value="COALESCE( &quot;IDISLA&quot;, '&lt;NULL>' )"/>
+          </Option>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
+        </Option>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration type="Map">
+          <Option type="Map" name="QgsGeometryGapCheck">
+            <Option type="double" value="0" name="allowedGapsBuffer"/>
+            <Option type="bool" value="false" name="allowedGapsEnabled"/>
+            <Option type="QString" value="" name="allowedGapsLayer"/>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="NoFlag" name="IDISLA">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="NUT3_ISLA">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="PROVMUN">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="CENTC">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="CENTS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="DC">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="CNUC">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="CUN">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="NMUN">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="NENTC">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="NENTS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="NNUC">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="FECHA">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="AREA">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="PERIMETRO">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="FPMCUN">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="POB_TOT">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="P_0_17">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="P_18_64">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="P_65_MAS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="HOM_TOT">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="H_0_17">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="H_18_64">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="H_65_MAS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MUJ_TOT">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="M_0_17">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="M_18_64">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="M_65_MAS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="IDISLA" index="0" name=""/>
+        <alias field="NUT3_ISLA" index="1" name=""/>
+        <alias field="PROVMUN" index="2" name=""/>
+        <alias field="CENTC" index="3" name=""/>
+        <alias field="CENTS" index="4" name=""/>
+        <alias field="DC" index="5" name=""/>
+        <alias field="CNUC" index="6" name=""/>
+        <alias field="CUN" index="7" name=""/>
+        <alias field="NMUN" index="8" name=""/>
+        <alias field="NENTC" index="9" name=""/>
+        <alias field="NENTS" index="10" name=""/>
+        <alias field="NNUC" index="11" name=""/>
+        <alias field="FECHA" index="12" name=""/>
+        <alias field="AREA" index="13" name=""/>
+        <alias field="PERIMETRO" index="14" name=""/>
+        <alias field="FPMCUN" index="15" name=""/>
+        <alias field="POB_TOT" index="16" name=""/>
+        <alias field="P_0_17" index="17" name=""/>
+        <alias field="P_18_64" index="18" name=""/>
+        <alias field="P_65_MAS" index="19" name=""/>
+        <alias field="HOM_TOT" index="20" name=""/>
+        <alias field="H_0_17" index="21" name=""/>
+        <alias field="H_18_64" index="22" name=""/>
+        <alias field="H_65_MAS" index="23" name=""/>
+        <alias field="MUJ_TOT" index="24" name=""/>
+        <alias field="M_0_17" index="25" name=""/>
+        <alias field="M_18_64" index="26" name=""/>
+        <alias field="M_65_MAS" index="27" name=""/>
+      </aliases>
+      <defaults>
+        <default expression="" field="IDISLA" applyOnUpdate="0"/>
+        <default expression="" field="NUT3_ISLA" applyOnUpdate="0"/>
+        <default expression="" field="PROVMUN" applyOnUpdate="0"/>
+        <default expression="" field="CENTC" applyOnUpdate="0"/>
+        <default expression="" field="CENTS" applyOnUpdate="0"/>
+        <default expression="" field="DC" applyOnUpdate="0"/>
+        <default expression="" field="CNUC" applyOnUpdate="0"/>
+        <default expression="" field="CUN" applyOnUpdate="0"/>
+        <default expression="" field="NMUN" applyOnUpdate="0"/>
+        <default expression="" field="NENTC" applyOnUpdate="0"/>
+        <default expression="" field="NENTS" applyOnUpdate="0"/>
+        <default expression="" field="NNUC" applyOnUpdate="0"/>
+        <default expression="" field="FECHA" applyOnUpdate="0"/>
+        <default expression="" field="AREA" applyOnUpdate="0"/>
+        <default expression="" field="PERIMETRO" applyOnUpdate="0"/>
+        <default expression="" field="FPMCUN" applyOnUpdate="0"/>
+        <default expression="" field="POB_TOT" applyOnUpdate="0"/>
+        <default expression="" field="P_0_17" applyOnUpdate="0"/>
+        <default expression="" field="P_18_64" applyOnUpdate="0"/>
+        <default expression="" field="P_65_MAS" applyOnUpdate="0"/>
+        <default expression="" field="HOM_TOT" applyOnUpdate="0"/>
+        <default expression="" field="H_0_17" applyOnUpdate="0"/>
+        <default expression="" field="H_18_64" applyOnUpdate="0"/>
+        <default expression="" field="H_65_MAS" applyOnUpdate="0"/>
+        <default expression="" field="MUJ_TOT" applyOnUpdate="0"/>
+        <default expression="" field="M_0_17" applyOnUpdate="0"/>
+        <default expression="" field="M_18_64" applyOnUpdate="0"/>
+        <default expression="" field="M_65_MAS" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" constraints="0" field="IDISLA" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="NUT3_ISLA" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="PROVMUN" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="CENTC" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="CENTS" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="DC" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="CNUC" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="CUN" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="NMUN" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="NENTC" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="NENTS" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="NNUC" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="FECHA" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="AREA" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="PERIMETRO" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="FPMCUN" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="POB_TOT" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="P_0_17" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="P_18_64" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="P_65_MAS" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="HOM_TOT" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="H_0_17" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="H_18_64" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="H_65_MAS" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="MUJ_TOT" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="M_0_17" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="M_18_64" notnull_strength="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="M_65_MAS" notnull_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="IDISLA" exp="" desc=""/>
+        <constraint field="NUT3_ISLA" exp="" desc=""/>
+        <constraint field="PROVMUN" exp="" desc=""/>
+        <constraint field="CENTC" exp="" desc=""/>
+        <constraint field="CENTS" exp="" desc=""/>
+        <constraint field="DC" exp="" desc=""/>
+        <constraint field="CNUC" exp="" desc=""/>
+        <constraint field="CUN" exp="" desc=""/>
+        <constraint field="NMUN" exp="" desc=""/>
+        <constraint field="NENTC" exp="" desc=""/>
+        <constraint field="NENTS" exp="" desc=""/>
+        <constraint field="NNUC" exp="" desc=""/>
+        <constraint field="FECHA" exp="" desc=""/>
+        <constraint field="AREA" exp="" desc=""/>
+        <constraint field="PERIMETRO" exp="" desc=""/>
+        <constraint field="FPMCUN" exp="" desc=""/>
+        <constraint field="POB_TOT" exp="" desc=""/>
+        <constraint field="P_0_17" exp="" desc=""/>
+        <constraint field="P_18_64" exp="" desc=""/>
+        <constraint field="P_65_MAS" exp="" desc=""/>
+        <constraint field="HOM_TOT" exp="" desc=""/>
+        <constraint field="H_0_17" exp="" desc=""/>
+        <constraint field="H_18_64" exp="" desc=""/>
+        <constraint field="H_65_MAS" exp="" desc=""/>
+        <constraint field="MUJ_TOT" exp="" desc=""/>
+        <constraint field="M_0_17" exp="" desc=""/>
+        <constraint field="M_18_64" exp="" desc=""/>
+        <constraint field="M_65_MAS" exp="" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column type="field" width="51" hidden="0" name="IDISLA"/>
+          <column type="field" width="76" hidden="0" name="NUT3_ISLA"/>
+          <column type="field" width="75" hidden="0" name="PROVMUN"/>
+          <column type="field" width="51" hidden="0" name="CENTC"/>
+          <column type="field" width="51" hidden="0" name="CENTS"/>
+          <column type="field" width="30" hidden="0" name="DC"/>
+          <column type="field" width="47" hidden="0" name="CNUC"/>
+          <column type="field" width="59" hidden="0" name="CUN"/>
+          <column type="field" width="195" hidden="0" name="NMUN"/>
+          <column type="field" width="53" hidden="0" name="NENTC"/>
+          <column type="field" width="232" hidden="0" name="NENTS"/>
+          <column type="field" width="229" hidden="0" name="NNUC"/>
+          <column type="field" width="165" hidden="0" name="FECHA"/>
+          <column type="field" width="165" hidden="0" name="AREA"/>
+          <column type="field" width="152" hidden="0" name="PERIMETRO"/>
+          <column type="field" width="143" hidden="0" name="FPMCUN"/>
+          <column type="field" width="152" hidden="0" name="POB_TOT"/>
+          <column type="field" width="145" hidden="0" name="P_0_17"/>
+          <column type="field" width="152" hidden="0" name="P_18_64"/>
+          <column type="field" width="145" hidden="0" name="P_65_MAS"/>
+          <column type="field" width="152" hidden="0" name="HOM_TOT"/>
+          <column type="field" width="145" hidden="0" name="H_0_17"/>
+          <column type="field" width="152" hidden="0" name="H_18_64"/>
+          <column type="field" width="145" hidden="0" name="H_65_MAS"/>
+          <column type="field" width="152" hidden="0" name="MUJ_TOT"/>
+          <column type="field" width="145" hidden="0" name="M_0_17"/>
+          <column type="field" width="152" hidden="0" name="M_18_64"/>
+          <column type="field" width="145" hidden="0" name="M_65_MAS"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+    geom = feature.geometry()
+    control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="AREA"/>
+        <field editable="1" name="CENTC"/>
+        <field editable="1" name="CENTS"/>
+        <field editable="1" name="CNUC"/>
+        <field editable="1" name="CUN"/>
+        <field editable="1" name="DC"/>
+        <field editable="1" name="FECHA"/>
+        <field editable="1" name="FPMCUN"/>
+        <field editable="1" name="HOM_TOT"/>
+        <field editable="1" name="H_0_17"/>
+        <field editable="1" name="H_18_64"/>
+        <field editable="1" name="H_65_MAS"/>
+        <field editable="1" name="IDISLA"/>
+        <field editable="1" name="MUJ_TOT"/>
+        <field editable="1" name="M_0_17"/>
+        <field editable="1" name="M_18_64"/>
+        <field editable="1" name="M_65_MAS"/>
+        <field editable="1" name="NENTC"/>
+        <field editable="1" name="NENTS"/>
+        <field editable="1" name="NMUN"/>
+        <field editable="1" name="NNUC"/>
+        <field editable="1" name="NUT3_ISLA"/>
+        <field editable="1" name="PERIMETRO"/>
+        <field editable="1" name="POB_TOT"/>
+        <field editable="1" name="PROVMUN"/>
+        <field editable="1" name="P_0_17"/>
+        <field editable="1" name="P_18_64"/>
+        <field editable="1" name="P_65_MAS"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="AREA"/>
+        <field labelOnTop="0" name="CENTC"/>
+        <field labelOnTop="0" name="CENTS"/>
+        <field labelOnTop="0" name="CNUC"/>
+        <field labelOnTop="0" name="CUN"/>
+        <field labelOnTop="0" name="DC"/>
+        <field labelOnTop="0" name="FECHA"/>
+        <field labelOnTop="0" name="FPMCUN"/>
+        <field labelOnTop="0" name="HOM_TOT"/>
+        <field labelOnTop="0" name="H_0_17"/>
+        <field labelOnTop="0" name="H_18_64"/>
+        <field labelOnTop="0" name="H_65_MAS"/>
+        <field labelOnTop="0" name="IDISLA"/>
+        <field labelOnTop="0" name="MUJ_TOT"/>
+        <field labelOnTop="0" name="M_0_17"/>
+        <field labelOnTop="0" name="M_18_64"/>
+        <field labelOnTop="0" name="M_65_MAS"/>
+        <field labelOnTop="0" name="NENTC"/>
+        <field labelOnTop="0" name="NENTS"/>
+        <field labelOnTop="0" name="NMUN"/>
+        <field labelOnTop="0" name="NNUC"/>
+        <field labelOnTop="0" name="NUT3_ISLA"/>
+        <field labelOnTop="0" name="PERIMETRO"/>
+        <field labelOnTop="0" name="POB_TOT"/>
+        <field labelOnTop="0" name="PROVMUN"/>
+        <field labelOnTop="0" name="P_0_17"/>
+        <field labelOnTop="0" name="P_18_64"/>
+        <field labelOnTop="0" name="P_65_MAS"/>
+      </labelOnTop>
+      <reuseLastValue>
+        <field name="AREA" reuseLastValue="0"/>
+        <field name="CENTC" reuseLastValue="0"/>
+        <field name="CENTS" reuseLastValue="0"/>
+        <field name="CNUC" reuseLastValue="0"/>
+        <field name="CUN" reuseLastValue="0"/>
+        <field name="DC" reuseLastValue="0"/>
+        <field name="FECHA" reuseLastValue="0"/>
+        <field name="FPMCUN" reuseLastValue="0"/>
+        <field name="HOM_TOT" reuseLastValue="0"/>
+        <field name="H_0_17" reuseLastValue="0"/>
+        <field name="H_18_64" reuseLastValue="0"/>
+        <field name="H_65_MAS" reuseLastValue="0"/>
+        <field name="IDISLA" reuseLastValue="0"/>
+        <field name="MUJ_TOT" reuseLastValue="0"/>
+        <field name="M_0_17" reuseLastValue="0"/>
+        <field name="M_18_64" reuseLastValue="0"/>
+        <field name="M_65_MAS" reuseLastValue="0"/>
+        <field name="NENTC" reuseLastValue="0"/>
+        <field name="NENTS" reuseLastValue="0"/>
+        <field name="NMUN" reuseLastValue="0"/>
+        <field name="NNUC" reuseLastValue="0"/>
+        <field name="NUT3_ISLA" reuseLastValue="0"/>
+        <field name="PERIMETRO" reuseLastValue="0"/>
+        <field name="POB_TOT" reuseLastValue="0"/>
+        <field name="PROVMUN" reuseLastValue="0"/>
+        <field name="P_0_17" reuseLastValue="0"/>
+        <field name="P_18_64" reuseLastValue="0"/>
+        <field name="P_65_MAS" reuseLastValue="0"/>
+      </reuseLastValue>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>COALESCE( "IDISLA", '&lt;NULL>' )</previewExpression>
+      <mapTip enabled="1"></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>

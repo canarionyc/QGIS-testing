@@ -1,0 +1,82 @@
+\documentclass[11pt, a4paper]{article}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+%\usepackage[spanish]{babel} % Spanish hyphenation and titles
+\usepackage{graphicx}       % For inserting QGIS PNGs
+\usepackage{pgfgantt}       % For your legal timeline
+\usepackage{geometry}       % For margin control
+\geometry{a4paper, margin=2.5cm}
+\usepackage{hyperref}       % For clickable links and table of contents
+\usepackage{caption}        % Better figure captions
+
+% --- Title Information ---
+\title{Tajagoite y la Ley del Suelo}
+\author{Tomás  González Llarena}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Introducción y Objetivos}
+El trabajo consiste en investigar que planes de ordenamiento urbanístico fueron afectados por la erupción del Tajagoite el 11 de septiembre de 2021.
+
+\section{El "Catastro Fantasma" (The Phantom Cadastre)}
+Como se observa en la figura \ref{fig:catastro_lava}, los límites de propiedad previos a 2021 han sido superpuestos sobre la huella de la colada (EMSR546).
+
+% --- How to insert your QGIS PNGs ---
+%\begin{figure}[h!]
+%    \centering
+%    % Ensure your QGIS PNG is in the same folder, or specify the path
+%    \includegraphics[width=0.9\textwidth]{mapa_catastro_colada.png}
+%    \caption{Superposición del Catastro sobre la Ortofoto de IDECanarias (2022).}
+%    \label{fig:catastro_lava}
+%\end{figure}
+
+\section{Historia Legal y Tramitación}
+El Valle de Aridane presentaba una situación legal compleja previa a la erupción...
+
+\section{Introducción y Marco Conceptual}
+\subsection{El Sistema de Planeamiento en Canarias}
+% Define the standard hierarchy (PIO, PGO, Planes Parciales) and the role of the FIP/SIPU systems.
+\subsection{Objetivos del Informe}
+% State the main goal: To analyze how the 2021 eruption shattered the existing planning hierarchy and how Ley 2/2024 reshuffled territorial management.
+
+\section{Estado Legal Previo a la Erupción (El "Antes")}
+\subsection{La Inestabilidad Jurídica del Planeamiento Municipal}
+% Discuss the pre-existing chaos. This is where your timeline chart goes.
+\subsubsection{Los Llanos de Aridane: El PGO de 2010 y su Nulidad}
+\subsubsection{Tazacorte: Conflictos de Clasificación y el PGO Anulado}
+\subsubsection{El Paso: La Excepción del Planeamiento Consolidado}
+\subsection{El Impacto en los Espacios Naturales Protegidos}
+% Discuss the PRUG of the Cumbre Vieja Natural Park before the Tajogaite cone appeared.
+
+\section{El Evento Volcánico y la Ruptura Cartográfica (El "Durante")}
+\subsection{La Alteración Física del Territorio y el "Catastro Fantasma"}
+% Explain how the lava wiped out the physical markers of the Cadastre, leaving property lines floating over new geological formations.
+\subsection{La Activación de Copernicus CEMS y la Cartografía de Emergencia}
+% How satellite data (EMSR546) provided the first raw maps of the disaster and defined the new "Ámbito de la colada".
+
+\section{La Reordenación del Planeamiento: Ley 2/2024 (El "Después")}
+\subsection{La Suspensión del Planeamiento Vigente}
+% Detail how Ley 2/2024 acts as an "override switch," suspending the old PGOs and Planes Parciales within the lava footprint.
+\subsection{El Nuevo Paradigma: Zonificación Geomorfólogica}
+% Explain the shift from "Urban/Rural" zoning to "Zonas de Recuperación" vs. "Zonas Libres de Construcción" based on lava temperature and thickness.
+\subsection{Derechos de Reubicación y Usos Excepcionales}
+% Discuss the radical legal shift allowing victims to transfer urban building rights to Suelo Rústico.
+
+\section{Integración Tecnológica y Análisis Espacial (GIS)}
+\subsection{Metodología de Mapeo Interseccional}
+% Show your QGIS work: Referencia Catastral > Intersección EMSR546 > Estado Post-Erupción.
+\subsection{Limitaciones de los FIP como Bases de Datos Estáticas}
+% Explain why standard FIPs are currently "empty shells" regarding the volcano, and why a dynamic relational database (PostGIS) is required to track the Ley 2/2024 overrides.
+
+\section{Conclusiones}
+% Summarize that the volcano didn't just destroy land; it forced a total redesign of how planning instruments are tracked and executed in emergency scenarios.
+% --- Placeholder for your TikZ/pgfgantt timeline ---
+% (You can paste the pgfgantt code we discussed here)
+
+\end{document}

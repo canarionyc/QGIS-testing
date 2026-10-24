@@ -1,0 +1,1 @@
+processing.run("qgis:statisticsbycategories",{'INPUT':'C:/dev/QGIS-testing/data/La Palma/110311-pio-lp-210714-210714-sipu/02SIST/ZON.shp','VALUES_FIELD_NAME':'Area_m2','CATEGORIES_FIELD_NAME':['ETIPLAN','TXTPLAN'],'OUTPUT':'TEMPORARY_OUTPUT'})

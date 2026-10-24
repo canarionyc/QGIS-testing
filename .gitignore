@@ -176,9 +176,9 @@ cython_debug/
 .abstra/
 
 # Visual Studio Code
-#  Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
+#  Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore
 #  that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
-#  and can be added to the global gitignore or merged into this file. However, if you prefer, 
+#  and can be added to the global gitignore or merged into this file. However, if you prefer,
 #  you could uncomment the following to ignore the entire vscode folder
 # .vscode/
 
@@ -222,4 +222,67 @@ __marimo__/
 *.png
 *.jpg
 
+# Data directories and temporary storage
+data/
+/data/
+**/data/
+output/
+/output/
+**/output/
+tmp/
+tmp_*
+temp/
 
+# Geospatial databases, rasters and point clouds
+*.gpkg
+*.gpkg-wal
+*.gpkg-shm
+*.sqlite
+*.sqlite3
+*.db
+*.tif
+*.tiff
+*.geotif
+*.geotiff
+*.las
+*.laz
+*.mdb
+*.accdb
+
+# Shapefiles and GIS vector layers
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.qgz
+*.qqf
+*.kml
+*.kmz
+
+# Archives and compressed formats
+*.zip
+*.tar
+*.7z
+*.rar
+
+# Tabular data and office documents
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.prn
+!config/color_ref.csv
+
+# Quarto & web outputs
+/.quarto/
+**/*.quarto_ipynb
+QGIS_projects/*/*_files/*
+*.html
+*.pgw

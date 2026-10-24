@@ -1,0 +1,1799 @@
+[
+    {
+        "puente": "Puente General Gutiérrez Mellado_145509718",
+        "hallazgos": [
+            {
+                "capa": "CLA",
+                "datos": {
+                    "ETIQUETA": "SRPI",
+                    "CODIGO": "5874-821-RUS-3-6_223_223",
+                    "ETIPLAN": "SRPI",
+                    "TXTPLAN": "Suelo Rústico de Protección de Infraestructuras y Equipamientos",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 223,
+                    "CODIGO_": "5874-821-RUS-3-6_223",
+                    "CAPA": 52
+                }
+            },
+            {
+                "capa": "CLA",
+                "datos": {
+                    "ETIQUETA": "SUC",
+                    "CODIGO": "5874-821-SU-1-1_415_411",
+                    "ETIPLAN": "SUCO",
+                    "TXTPLAN": "Suelo Urbano Consolidado",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 411,
+                    "CODIGO_": "5874-821-SU-1-1_415",
+                    "CAPA": 20
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AE.-2 Centro-Colinas",
+                    "CODIGO": "5874-821-ZON_EDIF-8_4123",
+                    "ETIPLAN": "AE.-2 Centro-Colinas",
+                    "TXTPLAN": "Área Estructural 2. Centro- Colinas",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 305,
+                    "CODIGO_": "5874-821-ZON_EDIF-8",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AOU 2.7",
+                    "CODIGO": "5874-821-ZON_EDIF-8-8_4488",
+                    "ETIPLAN": "AOU 2.7",
+                    "TXTPLAN": "Ámbito de Ordenación Urbanística 2.7 Centro",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 322,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-8",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AMB 2.7.5",
+                    "CODIGO": "5874-821-ZON_EDIF-8-8-4_4493",
+                    "ETIPLAN": "AMB 2.7.5",
+                    "TXTPLAN": "Ámbito 2.7.5 Ángel Guimerá",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 326,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-8-4",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AOU 2.8",
+                    "CODIGO": "5874-821-ZON_EDIF-8-9_4494",
+                    "ETIPLAN": "AOU 2.8",
+                    "TXTPLAN": "Ámbito de Ordenación Urbanística 2.8 El Cabo",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 327,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-9",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AMB 2.8.2",
+                    "CODIGO": "5874-821-ZON_EDIF-8-9-2_4496",
+                    "ETIPLAN": "AMB 2.8.2",
+                    "TXTPLAN": "Ámbito 2.8.2 San Sebastián",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 329,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-9-2",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EST",
+                "datos": {
+                    "ETIQUETA": "SGV-m",
+                    "CODIGO": "5874-821-SG-1-6_134_134",
+                    "ETIPLAN": "S.G. Viario",
+                    "TXTPLAN": "Sistema General Viario",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 134,
+                    "CODIGO_": "5874-821-SG-1-6_134",
+                    "CAPA": 21
+                }
+            },
+            {
+                "capa": "SUSP",
+                "datos": {
+                    "ETIQUETA": "SP-APROB",
+                    "CODIGO": "5874-821-AFE-6-1",
+                    "ETIPLAN": "SUSP",
+                    "TXTPLAN": "Ámbitos suspendidos",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 60
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "AM",
+                    "CODIGO": "5874-821-UG-2-1_81",
+                    "ETIPLAN": "AM",
+                    "TXTPLAN": "Ambiental",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 20,
+                    "ORIG_FID": 6,
+                    "CODIGO_": "5874-821-UG-2-1"
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "RE",
+                    "CODIGO": "5874-821-UG-1-1_183",
+                    "ETIPLAN": "R",
+                    "TXTPLAN": "Residencial",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 22,
+                    "ORIG_FID": 16,
+                    "CODIGO_": "5874-821-UG-1-1"
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "RE",
+                    "CODIGO": "5874-821-UG-1-1_184",
+                    "ETIPLAN": "R",
+                    "TXTPLAN": "Residencial",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 22,
+                    "ORIG_FID": 16,
+                    "CODIGO_": "5874-821-UG-1-1"
+                }
+            }
+        ]
+    },
+    {
+        "puente": "Puente Zurita_145508566",
+        "hallazgos": [
+            {
+                "capa": "CAT",
+                "datos": {
+                    "ETIQUETA": "INTE-33",
+                    "CODIGO": "5874-821-PRO-2-722",
+                    "ETIPLAN": "0707",
+                    "TXTPLAN": "0707 PUENTE DE ZURITA",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 21
+                }
+            },
+            {
+                "capa": "CLA",
+                "datos": {
+                    "ETIQUETA": "SRPI",
+                    "CODIGO": "5874-821-RUS-3-6_226_226",
+                    "ETIPLAN": "SRPI",
+                    "TXTPLAN": "Suelo Rústico de Protección de Infraestructuras y Equipamientos",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 226,
+                    "CODIGO_": "5874-821-RUS-3-6_226",
+                    "CAPA": 52
+                }
+            },
+            {
+                "capa": "CLA",
+                "datos": {
+                    "ETIQUETA": "SUC",
+                    "CODIGO": "5874-821-SU-1-1_415_411",
+                    "ETIPLAN": "SUCO",
+                    "TXTPLAN": "Suelo Urbano Consolidado",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 411,
+                    "CODIGO_": "5874-821-SU-1-1_415",
+                    "CAPA": 20
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AE.-2 Centro-Colinas",
+                    "CODIGO": "5874-821-ZON_EDIF-8_4123",
+                    "ETIPLAN": "AE.-2 Centro-Colinas",
+                    "TXTPLAN": "Área Estructural 2. Centro- Colinas",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 305,
+                    "CODIGO_": "5874-821-ZON_EDIF-8",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AOU 2.14",
+                    "CODIGO": "5874-821-ZON_EDIF-8-14_4519",
+                    "ETIPLAN": "AOU 2.14",
+                    "TXTPLAN": "Ámbito de Ordenación Urbanística 2.14 Salamanca",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 352,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-14",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AMB 2.14.2",
+                    "CODIGO": "5874-821-ZON_EDIF-8-14-2_4521",
+                    "ETIPLAN": "AMB 2.14.2",
+                    "TXTPLAN": "Ámbito 2.14.2 Salamanca - Barranco Santos",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 354,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-14-2",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AMB 3.1.2",
+                    "CODIGO": "5874-821-ZON_EDIF-9-2-2_4524",
+                    "ETIPLAN": "AMB 3.1.2",
+                    "TXTPLAN": "Ámbito 3.1.2 La Granja",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 357,
+                    "CODIGO_": "5874-821-ZON_EDIF-9-2-2",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AMB 3.1.3",
+                    "CODIGO": "5874-821-ZON_EDIF-9-2-3_4525",
+                    "ETIPLAN": "AMB 3.1.3",
+                    "TXTPLAN": "Ámbito 3.1.3 Buenavista",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 358,
+                    "CODIGO_": "5874-821-ZON_EDIF-9-2-3",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AE.-3 Salud-Ofra",
+                    "CODIGO": "5874-821-ZON_EDIF-9_4566",
+                    "ETIPLAN": "AE.-3 Salud-Ofra",
+                    "TXTPLAN": "Área Estructural 3 Salud-Ofra",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 399,
+                    "CODIGO_": "5874-821-ZON_EDIF-9",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AOU 3.1",
+                    "CODIGO": "5874-821-ZON_EDIF-9-2_4568",
+                    "ETIPLAN": "AOU 3.1",
+                    "TXTPLAN": "Ámbito de Ordenación Urbanística 3.1 El Chapatal",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 401,
+                    "CODIGO_": "5874-821-ZON_EDIF-9-2",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EST",
+                "datos": {
+                    "ETIQUETA": "SGV-m",
+                    "CODIGO": "5874-821-SG-1-6_134_134",
+                    "ETIPLAN": "S.G. Viario",
+                    "TXTPLAN": "Sistema General Viario",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 134,
+                    "CODIGO_": "5874-821-SG-1-6_134",
+                    "CAPA": 21
+                }
+            },
+            {
+                "capa": "SUSP",
+                "datos": {
+                    "ETIQUETA": "SP-APROB",
+                    "CODIGO": "5874-821-AFE-6-1",
+                    "ETIPLAN": "SUSP",
+                    "TXTPLAN": "Ámbitos suspendidos",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 60
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "AM",
+                    "CODIGO": "5874-821-UG-2-1_81",
+                    "ETIPLAN": "AM",
+                    "TXTPLAN": "Ambiental",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 20,
+                    "ORIG_FID": 6,
+                    "CODIGO_": "5874-821-UG-2-1"
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "RE",
+                    "CODIGO": "5874-821-UG-1-1_183",
+                    "ETIPLAN": "R",
+                    "TXTPLAN": "Residencial",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 22,
+                    "ORIG_FID": 16,
+                    "CODIGO_": "5874-821-UG-1-1"
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "RE",
+                    "CODIGO": "5874-821-UG-1-1_184",
+                    "ETIPLAN": "R",
+                    "TXTPLAN": "Residencial",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 22,
+                    "ORIG_FID": 16,
+                    "CODIGO_": "5874-821-UG-1-1"
+                }
+            },
+            {
+                "capa": "ZUSO",
+                "datos": {
+                    "ETIQUETA": "CO-El-2",
+                    "CODIGO": "2125_2124",
+                    "ETIPLAN": "AL/PV",
+                    "TXTPLAN": "Áreas libres ajardinadas y/o de protección del viario",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 99,
+                    "ORIG_FID": 2124,
+                    "CODIGO_": "2125"
+                }
+            },
+            {
+                "capa": "ZUSO",
+                "datos": {
+                    "ETIQUETA": "IE-TrGu-1",
+                    "CODIGO": "3301_3300",
+                    "ETIPLAN": "TRV",
+                    "TXTPLAN": "Tranvía y transporte público",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 99,
+                    "ORIG_FID": 3300,
+                    "CODIGO_": "3301"
+                }
+            }
+        ]
+    },
+    {
+        "puente": "Puente Javier de Loño Pérez_145508549",
+        "hallazgos": [
+            {
+                "capa": "CLA",
+                "datos": {
+                    "ETIQUETA": "SRPI",
+                    "CODIGO": "5874-821-RUS-3-6_227_227",
+                    "ETIPLAN": "SRPI",
+                    "TXTPLAN": "Suelo Rústico de Protección de Infraestructuras y Equipamientos",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 227,
+                    "CODIGO_": "5874-821-RUS-3-6_227",
+                    "CAPA": 52
+                }
+            },
+            {
+                "capa": "CLA",
+                "datos": {
+                    "ETIQUETA": "SUC",
+                    "CODIGO": "5874-821-SU-1-1_415_411",
+                    "ETIPLAN": "SUCO",
+                    "TXTPLAN": "Suelo Urbano Consolidado",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 411,
+                    "CODIGO_": "5874-821-SU-1-1_415",
+                    "CAPA": 20
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AE.-2 Centro-Colinas",
+                    "CODIGO": "5874-821-ZON_EDIF-8_4123",
+                    "ETIPLAN": "AE.-2 Centro-Colinas",
+                    "TXTPLAN": "Área Estructural 2. Centro- Colinas",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 305,
+                    "CODIGO_": "5874-821-ZON_EDIF-8",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AOU 2.14",
+                    "CODIGO": "5874-821-ZON_EDIF-8-14_4519",
+                    "ETIPLAN": "AOU 2.14",
+                    "TXTPLAN": "Ámbito de Ordenación Urbanística 2.14 Salamanca",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 352,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-14",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AMB 2.14.2",
+                    "CODIGO": "5874-821-ZON_EDIF-8-14-2_4521",
+                    "ETIPLAN": "AMB 2.14.2",
+                    "TXTPLAN": "Ámbito 2.14.2 Salamanca - Barranco Santos",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 354,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-14-2",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AOU 3.7",
+                    "CODIGO": "5874-821-ZON_EDIF-9-8_4548",
+                    "ETIPLAN": "AOU 3.7",
+                    "TXTPLAN": "Ámbito de Ordenación Urbanística 3.7 La Salud",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 381,
+                    "CODIGO_": "5874-821-ZON_EDIF-9-8",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AMB 3.7.1",
+                    "CODIGO": "5874-821-ZON_EDIF-9-8-1_4549",
+                    "ETIPLAN": "AMB 3.7.1",
+                    "TXTPLAN": "Ámbito 3.7.1 Salud Bajo",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 382,
+                    "CODIGO_": "5874-821-ZON_EDIF-9-8-1",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AE.-3 Salud-Ofra",
+                    "CODIGO": "5874-821-ZON_EDIF-9_4566",
+                    "ETIPLAN": "AE.-3 Salud-Ofra",
+                    "TXTPLAN": "Área Estructural 3 Salud-Ofra",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 399,
+                    "CODIGO_": "5874-821-ZON_EDIF-9",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "SUSP",
+                "datos": {
+                    "ETIQUETA": "SP-APROB",
+                    "CODIGO": "5874-821-AFE-6-1",
+                    "ETIPLAN": "SUSP",
+                    "TXTPLAN": "Ámbitos suspendidos",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 60
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "AM",
+                    "CODIGO": "5874-821-UG-2-1_81",
+                    "ETIPLAN": "AM",
+                    "TXTPLAN": "Ambiental",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 20,
+                    "ORIG_FID": 6,
+                    "CODIGO_": "5874-821-UG-2-1"
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "RE",
+                    "CODIGO": "5874-821-UG-1-1_183",
+                    "ETIPLAN": "R",
+                    "TXTPLAN": "Residencial",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 22,
+                    "ORIG_FID": 16,
+                    "CODIGO_": "5874-821-UG-1-1"
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "RE",
+                    "CODIGO": "5874-821-UG-1-1_184",
+                    "ETIPLAN": "R",
+                    "TXTPLAN": "Residencial",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 22,
+                    "ORIG_FID": 16,
+                    "CODIGO_": "5874-821-UG-1-1"
+                }
+            }
+        ]
+    },
+    {
+        "puente": "Puente Matemático Nácere Hayek Calil_145508280",
+        "hallazgos": [
+            {
+                "capa": "CLA",
+                "datos": {
+                    "ETIQUETA": "SRPI",
+                    "CODIGO": "5874-821-RUS-3-6_226_226",
+                    "ETIPLAN": "SRPI",
+                    "TXTPLAN": "Suelo Rústico de Protección de Infraestructuras y Equipamientos",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 226,
+                    "CODIGO_": "5874-821-RUS-3-6_226",
+                    "CAPA": 52
+                }
+            },
+            {
+                "capa": "CLA",
+                "datos": {
+                    "ETIQUETA": "SUC",
+                    "CODIGO": "5874-821-SU-1-1_415_411",
+                    "ETIPLAN": "SUCO",
+                    "TXTPLAN": "Suelo Urbano Consolidado",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 411,
+                    "CODIGO_": "5874-821-SU-1-1_415",
+                    "CAPA": 20
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AE.-2 Centro-Colinas",
+                    "CODIGO": "5874-821-ZON_EDIF-8_4123",
+                    "ETIPLAN": "AE.-2 Centro-Colinas",
+                    "TXTPLAN": "Área Estructural 2. Centro- Colinas",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 305,
+                    "CODIGO_": "5874-821-ZON_EDIF-8",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AOU 2.14",
+                    "CODIGO": "5874-821-ZON_EDIF-8-14_4519",
+                    "ETIPLAN": "AOU 2.14",
+                    "TXTPLAN": "Ámbito de Ordenación Urbanística 2.14 Salamanca",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 352,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-14",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AMB 2.14.2",
+                    "CODIGO": "5874-821-ZON_EDIF-8-14-2_4521",
+                    "ETIPLAN": "AMB 2.14.2",
+                    "TXTPLAN": "Ámbito 2.14.2 Salamanca - Barranco Santos",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 354,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-14-2",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AMB 3.1.1",
+                    "CODIGO": "5874-821-ZON_EDIF-9-2-1_4523",
+                    "ETIPLAN": "AMB 3.1.1",
+                    "TXTPLAN": "Ámbito 3.1.1 El Chapatal - Rambla",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 356,
+                    "CODIGO_": "5874-821-ZON_EDIF-9-2-1",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AMB 3.1.2",
+                    "CODIGO": "5874-821-ZON_EDIF-9-2-2_4524",
+                    "ETIPLAN": "AMB 3.1.2",
+                    "TXTPLAN": "Ámbito 3.1.2 La Granja",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 357,
+                    "CODIGO_": "5874-821-ZON_EDIF-9-2-2",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AE.-3 Salud-Ofra",
+                    "CODIGO": "5874-821-ZON_EDIF-9_4566",
+                    "ETIPLAN": "AE.-3 Salud-Ofra",
+                    "TXTPLAN": "Área Estructural 3 Salud-Ofra",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 399,
+                    "CODIGO_": "5874-821-ZON_EDIF-9",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AOU 3.1",
+                    "CODIGO": "5874-821-ZON_EDIF-9-2_4568",
+                    "ETIPLAN": "AOU 3.1",
+                    "TXTPLAN": "Ámbito de Ordenación Urbanística 3.1 El Chapatal",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 401,
+                    "CODIGO_": "5874-821-ZON_EDIF-9-2",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EST",
+                "datos": {
+                    "ETIQUETA": "SGV-m",
+                    "CODIGO": "5874-821-SG-1-6_134_134",
+                    "ETIPLAN": "S.G. Viario",
+                    "TXTPLAN": "Sistema General Viario",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 134,
+                    "CODIGO_": "5874-821-SG-1-6_134",
+                    "CAPA": 21
+                }
+            },
+            {
+                "capa": "SUSP",
+                "datos": {
+                    "ETIQUETA": "SP-APROB",
+                    "CODIGO": "5874-821-AFE-6-1",
+                    "ETIPLAN": "SUSP",
+                    "TXTPLAN": "Ámbitos suspendidos",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 60
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "AM",
+                    "CODIGO": "5874-821-UG-2-1_81",
+                    "ETIPLAN": "AM",
+                    "TXTPLAN": "Ambiental",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 20,
+                    "ORIG_FID": 6,
+                    "CODIGO_": "5874-821-UG-2-1"
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "RE",
+                    "CODIGO": "5874-821-UG-1-1_183",
+                    "ETIPLAN": "R",
+                    "TXTPLAN": "Residencial",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 22,
+                    "ORIG_FID": 16,
+                    "CODIGO_": "5874-821-UG-1-1"
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "RE",
+                    "CODIGO": "5874-821-UG-1-1_184",
+                    "ETIPLAN": "R",
+                    "TXTPLAN": "Residencial",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 22,
+                    "ORIG_FID": 16,
+                    "CODIGO_": "5874-821-UG-1-1"
+                }
+            }
+        ]
+    },
+    {
+        "puente": "Puente Galcerán_145508243",
+        "hallazgos": [
+            {
+                "capa": "CAT",
+                "datos": {
+                    "ETIQUETA": "INTE-366",
+                    "CODIGO": "5874-821-PRO-2-345",
+                    "ETIPLAN": "0330",
+                    "TXTPLAN": "0330 PUENTE GALCERÁN",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 21
+                }
+            },
+            {
+                "capa": "CLA",
+                "datos": {
+                    "ETIQUETA": "SRPI",
+                    "CODIGO": "5874-821-RUS-3-6_222_222",
+                    "ETIPLAN": "SRPI",
+                    "TXTPLAN": "Suelo Rústico de Protección de Infraestructuras y Equipamientos",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 222,
+                    "CODIGO_": "5874-821-RUS-3-6_222",
+                    "CAPA": 52
+                }
+            },
+            {
+                "capa": "CLA",
+                "datos": {
+                    "ETIQUETA": "SUC",
+                    "CODIGO": "5874-821-SU-1-1_415_411",
+                    "ETIPLAN": "SUCO",
+                    "TXTPLAN": "Suelo Urbano Consolidado",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 411,
+                    "CODIGO_": "5874-821-SU-1-1_415",
+                    "CAPA": 20
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AE.-2 Centro-Colinas",
+                    "CODIGO": "5874-821-ZON_EDIF-8_4123",
+                    "ETIPLAN": "AE.-2 Centro-Colinas",
+                    "TXTPLAN": "Área Estructural 2. Centro- Colinas",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 305,
+                    "CODIGO_": "5874-821-ZON_EDIF-8",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AOU 2.7",
+                    "CODIGO": "5874-821-ZON_EDIF-8-8_4488",
+                    "ETIPLAN": "AOU 2.7",
+                    "TXTPLAN": "Ámbito de Ordenación Urbanística 2.7 Centro",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 322,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-8",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AMB 2.7.5",
+                    "CODIGO": "5874-821-ZON_EDIF-8-8-4_4493",
+                    "ETIPLAN": "AMB 2.7.5",
+                    "TXTPLAN": "Ámbito 2.7.5 Ángel Guimerá",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 326,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-8-4",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AOU 2.8",
+                    "CODIGO": "5874-821-ZON_EDIF-8-9_4494",
+                    "ETIPLAN": "AOU 2.8",
+                    "TXTPLAN": "Ámbito de Ordenación Urbanística 2.8 El Cabo",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 327,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-9",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AMB 2.8.2",
+                    "CODIGO": "5874-821-ZON_EDIF-8-9-2_4496",
+                    "ETIPLAN": "AMB 2.8.2",
+                    "TXTPLAN": "Ámbito 2.8.2 San Sebastián",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 329,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-9-2",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AOU 2.11",
+                    "CODIGO": "5874-821-ZON_EDIF-8-11_4505",
+                    "ETIPLAN": "AOU 2.11",
+                    "TXTPLAN": "Ámbito de Ordenación Urbanística 2.11 Rambla Pulido -Duggi",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 338,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-11",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AMB 2.11.2",
+                    "CODIGO": "5874-821-ZON_EDIF-8-11-2_4533",
+                    "ETIPLAN": "AMB 2.11.2",
+                    "TXTPLAN": "Ámbito 2.11.2 Duggi",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 366,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-11-2",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AOU 2.12",
+                    "CODIGO": "5874-821-ZON_EDIF-8-12_4561",
+                    "ETIPLAN": "AOU 2.12",
+                    "TXTPLAN": "Ámbito de Ordenación Urbanística 2.12 La Salle",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 394,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-12",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AMB 2.12.1",
+                    "CODIGO": "5874-821-ZON_EDIF-8-12-1_4562",
+                    "ETIPLAN": "AMB 2.12.1",
+                    "TXTPLAN": "Ámbito 2.12.1 La Victoria - Estadio",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 395,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-12-1",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EST",
+                "datos": {
+                    "ETIQUETA": "SGV-m",
+                    "CODIGO": "5874-821-SG-1-6_134_134",
+                    "ETIPLAN": "S.G. Viario",
+                    "TXTPLAN": "Sistema General Viario",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 134,
+                    "CODIGO_": "5874-821-SG-1-6_134",
+                    "CAPA": 21
+                }
+            },
+            {
+                "capa": "SUSP",
+                "datos": {
+                    "ETIQUETA": "SP-APROB",
+                    "CODIGO": "5874-821-AFE-6-1",
+                    "ETIPLAN": "SUSP",
+                    "TXTPLAN": "Ámbitos suspendidos",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 60
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "CO",
+                    "CODIGO": "5874-821-UG-1-7_5",
+                    "ETIPLAN": "D",
+                    "TXTPLAN": "Dotacional",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 24,
+                    "ORIG_FID": 1,
+                    "CODIGO_": "5874-821-UG-1-7"
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "AM",
+                    "CODIGO": "5874-821-UG-2-1_81",
+                    "ETIPLAN": "AM",
+                    "TXTPLAN": "Ambiental",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 20,
+                    "ORIG_FID": 6,
+                    "CODIGO_": "5874-821-UG-2-1"
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "RE",
+                    "CODIGO": "5874-821-UG-1-1_183",
+                    "ETIPLAN": "R",
+                    "TXTPLAN": "Residencial",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 22,
+                    "ORIG_FID": 16,
+                    "CODIGO_": "5874-821-UG-1-1"
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "RE",
+                    "CODIGO": "5874-821-UG-1-1_184",
+                    "ETIPLAN": "R",
+                    "TXTPLAN": "Residencial",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 22,
+                    "ORIG_FID": 16,
+                    "CODIGO_": "5874-821-UG-1-1"
+                }
+            }
+        ]
+    },
+    {
+        "puente": "Puente Prolongación Benahoare_145508236",
+        "hallazgos": [
+            {
+                "capa": "CLA",
+                "datos": {
+                    "ETIQUETA": "SUC",
+                    "CODIGO": "5874-821-SU-1-1_415_411",
+                    "ETIPLAN": "SUCO",
+                    "TXTPLAN": "Suelo Urbano Consolidado",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 411,
+                    "CODIGO_": "5874-821-SU-1-1_415",
+                    "CAPA": 20
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AMB 3.1.3",
+                    "CODIGO": "5874-821-ZON_EDIF-9-2-3_4525",
+                    "ETIPLAN": "AMB 3.1.3",
+                    "TXTPLAN": "Ámbito 3.1.3 Buenavista",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 358,
+                    "CODIGO_": "5874-821-ZON_EDIF-9-2-3",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AOU 3.7",
+                    "CODIGO": "5874-821-ZON_EDIF-9-8_4548",
+                    "ETIPLAN": "AOU 3.7",
+                    "TXTPLAN": "Ámbito de Ordenación Urbanística 3.7 La Salud",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 381,
+                    "CODIGO_": "5874-821-ZON_EDIF-9-8",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AMB 3.7.1",
+                    "CODIGO": "5874-821-ZON_EDIF-9-8-1_4549",
+                    "ETIPLAN": "AMB 3.7.1",
+                    "TXTPLAN": "Ámbito 3.7.1 Salud Bajo",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 382,
+                    "CODIGO_": "5874-821-ZON_EDIF-9-8-1",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AE.-3 Salud-Ofra",
+                    "CODIGO": "5874-821-ZON_EDIF-9_4566",
+                    "ETIPLAN": "AE.-3 Salud-Ofra",
+                    "TXTPLAN": "Área Estructural 3 Salud-Ofra",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 399,
+                    "CODIGO_": "5874-821-ZON_EDIF-9",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AOU 3.1",
+                    "CODIGO": "5874-821-ZON_EDIF-9-2_4568",
+                    "ETIPLAN": "AOU 3.1",
+                    "TXTPLAN": "Ámbito de Ordenación Urbanística 3.1 El Chapatal",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 401,
+                    "CODIGO_": "5874-821-ZON_EDIF-9-2",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EST",
+                "datos": {
+                    "ETIQUETA": "SGV-m",
+                    "CODIGO": "5874-821-SG-1-6_134_134",
+                    "ETIPLAN": "S.G. Viario",
+                    "TXTPLAN": "Sistema General Viario",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 134,
+                    "CODIGO_": "5874-821-SG-1-6_134",
+                    "CAPA": 21
+                }
+            },
+            {
+                "capa": "SUSP",
+                "datos": {
+                    "ETIQUETA": "SP-APROB",
+                    "CODIGO": "5874-821-AFE-6-1",
+                    "ETIPLAN": "SUSP",
+                    "TXTPLAN": "Ámbitos suspendidos",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 60
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "RE",
+                    "CODIGO": "5874-821-UG-1-1_183",
+                    "ETIPLAN": "R",
+                    "TXTPLAN": "Residencial",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 22,
+                    "ORIG_FID": 16,
+                    "CODIGO_": "5874-821-UG-1-1"
+                }
+            }
+        ]
+    },
+    {
+        "puente": "Puente General Serrador_145508067",
+        "hallazgos": [
+            {
+                "capa": "CAT",
+                "datos": {
+                    "ETIQUETA": "01",
+                    "CODIGO": "5874-821-PRO-1-1-1",
+                    "ETIPLAN": "01",
+                    "TXTPLAN": "01 Antiguo Santa Cruz",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 999
+                }
+            },
+            {
+                "capa": "CAT",
+                "datos": {
+                    "ETIQUETA": "INTE-367",
+                    "CODIGO": "5874-821-PRO-2-344",
+                    "ETIPLAN": "0329",
+                    "TXTPLAN": "0329 PUENTE GENERAL SERRADOR",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 21
+                }
+            },
+            {
+                "capa": "CAT",
+                "datos": {
+                    "ETIQUETA": "AMBI-20",
+                    "CODIGO": "5874-821-PRO-5-1",
+                    "ETIPLAN": "D1",
+                    "TXTPLAN": "D1 ÁMBITO DE INTERÉS CULTURAL BIC ANTIGUO SANTA CRUZ",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 31
+                }
+            },
+            {
+                "capa": "CLA",
+                "datos": {
+                    "ETIQUETA": "SUC-IC",
+                    "CODIGO": "5874-821-SU_SUB-1-1-1_35_35",
+                    "ETIPLAN": "SUC-IC",
+                    "TXTPLAN": "Suelo Urbano Consolidado de Interés Cultural",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 35,
+                    "CODIGO_": "5874-821-SU_SUB-1-1-1_35",
+                    "CAPA": 20
+                }
+            },
+            {
+                "capa": "CLA",
+                "datos": {
+                    "ETIQUETA": "SRPI",
+                    "CODIGO": "5874-821-RUS-3-6_221_221",
+                    "ETIPLAN": "SRPI",
+                    "TXTPLAN": "Suelo Rústico de Protección de Infraestructuras y Equipamientos",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 221,
+                    "CODIGO_": "5874-821-RUS-3-6_221",
+                    "CAPA": 52
+                }
+            },
+            {
+                "capa": "CLA",
+                "datos": {
+                    "ETIQUETA": "SUC",
+                    "CODIGO": "5874-821-SU-1-1_415_411",
+                    "ETIPLAN": "SUCO",
+                    "TXTPLAN": "Suelo Urbano Consolidado",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 411,
+                    "CODIGO_": "5874-821-SU-1-1_415",
+                    "CAPA": 20
+                }
+            },
+            {
+                "capa": "DES",
+                "datos": {
+                    "ETIQUETA": "PEP",
+                    "CODIGO": "5874-821-DES-1-1-5",
+                    "ETIPLAN": "AMB 2.7.2/PE",
+                    "TXTPLAN": "Ámbito 2.7.2  Antiguo Santa Cruz. Conjunto Histórico. Plan Especial",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 40
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AE.-2 Centro-Colinas",
+                    "CODIGO": "5874-821-ZON_EDIF-8_4123",
+                    "ETIPLAN": "AE.-2 Centro-Colinas",
+                    "TXTPLAN": "Área Estructural 2. Centro- Colinas",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 305,
+                    "CODIGO_": "5874-821-ZON_EDIF-8",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "PZ",
+                    "CODIGO": "5874-821-ZON_EDIF-5-2_4306",
+                    "ETIPLAN": "PZ",
+                    "TXTPLAN": "Plazas",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 318,
+                    "CODIGO_": "5874-821-ZON_EDIF-5-2",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AOU 2.7",
+                    "CODIGO": "5874-821-ZON_EDIF-8-8_4488",
+                    "ETIPLAN": "AOU 2.7",
+                    "TXTPLAN": "Ámbito de Ordenación Urbanística 2.7 Centro",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 322,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-8",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AMB 2.7.1",
+                    "CODIGO": "5874-821-ZON_EDIF-8-8-1_4489",
+                    "ETIPLAN": "AMB 2.7.1",
+                    "TXTPLAN": "Ámbito 2.7.1 Fachada Marítima",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 323,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-8-1",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AMB 2.7.1",
+                    "CODIGO": "5874-821-ZON_EDIF-8-8-1_4490",
+                    "ETIPLAN": "AMB 2.7.1",
+                    "TXTPLAN": "Ámbito 2.7.1 Fachada Marítima",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 323,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-8-1",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AOU 2.8",
+                    "CODIGO": "5874-821-ZON_EDIF-8-9_4494",
+                    "ETIPLAN": "AOU 2.8",
+                    "TXTPLAN": "Ámbito de Ordenación Urbanística 2.8 El Cabo",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 327,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-9",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AMB 2.8.2",
+                    "CODIGO": "5874-821-ZON_EDIF-8-9-2_4496",
+                    "ETIPLAN": "AMB 2.8.2",
+                    "TXTPLAN": "Ámbito 2.8.2 San Sebastián",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 329,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-9-2",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EST",
+                "datos": {
+                    "ETIQUETA": "SGV-m",
+                    "CODIGO": "5874-821-SG-1-6_134_134",
+                    "ETIPLAN": "S.G. Viario",
+                    "TXTPLAN": "Sistema General Viario",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 134,
+                    "CODIGO_": "5874-821-SG-1-6_134",
+                    "CAPA": 21
+                }
+            },
+            {
+                "capa": "SUSP",
+                "datos": {
+                    "ETIQUETA": "SP-APROB",
+                    "CODIGO": "5874-821-AFE-6-1",
+                    "ETIPLAN": "SUSP",
+                    "TXTPLAN": "Ámbitos suspendidos",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 60
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "CO",
+                    "CODIGO": "5874-821-UG-1-7_3",
+                    "ETIPLAN": "D",
+                    "TXTPLAN": "Dotacional",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 24,
+                    "ORIG_FID": 1,
+                    "CODIGO_": "5874-821-UG-1-7"
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "CO",
+                    "CODIGO": "5874-821-UG-1-7_4",
+                    "ETIPLAN": "D",
+                    "TXTPLAN": "Dotacional",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 24,
+                    "ORIG_FID": 1,
+                    "CODIGO_": "5874-821-UG-1-7"
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "AM",
+                    "CODIGO": "5874-821-UG-2-1_81",
+                    "ETIPLAN": "AM",
+                    "TXTPLAN": "Ambiental",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 20,
+                    "ORIG_FID": 6,
+                    "CODIGO_": "5874-821-UG-2-1"
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "RE",
+                    "CODIGO": "5874-821-UG-1-1_183",
+                    "ETIPLAN": "R",
+                    "TXTPLAN": "Residencial",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 22,
+                    "ORIG_FID": 16,
+                    "CODIGO_": "5874-821-UG-1-1"
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "RE",
+                    "CODIGO": "5874-821-UG-1-1_184",
+                    "ETIPLAN": "R",
+                    "TXTPLAN": "Residencial",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 22,
+                    "ORIG_FID": 16,
+                    "CODIGO_": "5874-821-UG-1-1"
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "RE",
+                    "CODIGO": "5874-821-UG-1-3_204",
+                    "ETIPLAN": "R-T",
+                    "TXTPLAN": "Residencial-Terciario",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 22,
+                    "ORIG_FID": 18,
+                    "CODIGO_": "5874-821-UG-1-3"
+                }
+            },
+            {
+                "capa": "ZUSO",
+                "datos": {
+                    "ETIQUETA": "IE-TrRv-5",
+                    "CODIGO": "2967_2966",
+                    "ETIPLAN": "V",
+                    "TXTPLAN": "Infraestructura viaria",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 99,
+                    "ORIG_FID": 2966,
+                    "CODIGO_": "2967"
+                }
+            }
+        ]
+    },
+    {
+        "puente": "Puente Aguere_145508041",
+        "hallazgos": [
+            {
+                "capa": "CLA",
+                "datos": {
+                    "ETIQUETA": "SRPI",
+                    "CODIGO": "5874-821-RUS-3-6_221_221",
+                    "ETIPLAN": "SRPI",
+                    "TXTPLAN": "Suelo Rústico de Protección de Infraestructuras y Equipamientos",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 221,
+                    "CODIGO_": "5874-821-RUS-3-6_221",
+                    "CAPA": 52
+                }
+            },
+            {
+                "capa": "CLA",
+                "datos": {
+                    "ETIQUETA": "SUC",
+                    "CODIGO": "5874-821-SU-1-1_415_411",
+                    "ETIPLAN": "SUCO",
+                    "TXTPLAN": "Suelo Urbano Consolidado",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 411,
+                    "CODIGO_": "5874-821-SU-1-1_415",
+                    "CAPA": 20
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AE.-2 Centro-Colinas",
+                    "CODIGO": "5874-821-ZON_EDIF-8_4123",
+                    "ETIPLAN": "AE.-2 Centro-Colinas",
+                    "TXTPLAN": "Área Estructural 2. Centro- Colinas",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 305,
+                    "CODIGO_": "5874-821-ZON_EDIF-8",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AOU 2.7",
+                    "CODIGO": "5874-821-ZON_EDIF-8-8_4488",
+                    "ETIPLAN": "AOU 2.7",
+                    "TXTPLAN": "Ámbito de Ordenación Urbanística 2.7 Centro",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 322,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-8",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AMB 2.7.5",
+                    "CODIGO": "5874-821-ZON_EDIF-8-8-4_4493",
+                    "ETIPLAN": "AMB 2.7.5",
+                    "TXTPLAN": "Ámbito 2.7.5 Ángel Guimerá",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 326,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-8-4",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AOU 2.8",
+                    "CODIGO": "5874-821-ZON_EDIF-8-9_4494",
+                    "ETIPLAN": "AOU 2.8",
+                    "TXTPLAN": "Ámbito de Ordenación Urbanística 2.8 El Cabo",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 327,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-9",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AMB 2.8.2",
+                    "CODIGO": "5874-821-ZON_EDIF-8-9-2_4496",
+                    "ETIPLAN": "AMB 2.8.2",
+                    "TXTPLAN": "Ámbito 2.8.2 San Sebastián",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 329,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-9-2",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EST",
+                "datos": {
+                    "ETIQUETA": "SGV-m",
+                    "CODIGO": "5874-821-SG-1-6_134_134",
+                    "ETIPLAN": "S.G. Viario",
+                    "TXTPLAN": "Sistema General Viario",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 134,
+                    "CODIGO_": "5874-821-SG-1-6_134",
+                    "CAPA": 21
+                }
+            },
+            {
+                "capa": "SUSP",
+                "datos": {
+                    "ETIQUETA": "SP-APROB",
+                    "CODIGO": "5874-821-AFE-6-1",
+                    "ETIPLAN": "SUSP",
+                    "TXTPLAN": "Ámbitos suspendidos",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 60
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "AM",
+                    "CODIGO": "5874-821-UG-2-1_81",
+                    "ETIPLAN": "AM",
+                    "TXTPLAN": "Ambiental",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 20,
+                    "ORIG_FID": 6,
+                    "CODIGO_": "5874-821-UG-2-1"
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "RE",
+                    "CODIGO": "5874-821-UG-1-1_183",
+                    "ETIPLAN": "R",
+                    "TXTPLAN": "Residencial",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 22,
+                    "ORIG_FID": 16,
+                    "CODIGO_": "5874-821-UG-1-1"
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "RE",
+                    "CODIGO": "5874-821-UG-1-1_184",
+                    "ETIPLAN": "R",
+                    "TXTPLAN": "Residencial",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 22,
+                    "ORIG_FID": 16,
+                    "CODIGO_": "5874-821-UG-1-1"
+                }
+            }
+        ]
+    },
+    {
+        "puente": "Puente El Cabo_145507942",
+        "hallazgos": [
+            {
+                "capa": "CAT",
+                "datos": {
+                    "ETIQUETA": "INTE-753",
+                    "CODIGO": "5874-821-PRO-2-321",
+                    "ETIPLAN": "0306",
+                    "TXTPLAN": "0306 PUENTE DEL CABO",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 21
+                }
+            },
+            {
+                "capa": "CAT",
+                "datos": {
+                    "ETIQUETA": "01",
+                    "CODIGO": "5874-821-PRO-1-1-1",
+                    "ETIPLAN": "01",
+                    "TXTPLAN": "01 Antiguo Santa Cruz",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 999
+                }
+            },
+            {
+                "capa": "CAT",
+                "datos": {
+                    "ETIQUETA": "AMBI-132",
+                    "CODIGO": "5874-821-PRO-1-2-4",
+                    "ETIPLAN": "04",
+                    "TXTPLAN": "04 Templo Arciprestal de Nuestra Señora de la Concepción",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 31
+                }
+            },
+            {
+                "capa": "CAT",
+                "datos": {
+                    "ETIQUETA": "AMBI-131",
+                    "CODIGO": "5874-821-PRO-1-2-5",
+                    "ETIPLAN": "05",
+                    "TXTPLAN": "05 Antiguo Hospital civil",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 31
+                }
+            },
+            {
+                "capa": "CAT",
+                "datos": {
+                    "ETIQUETA": "AMBI-20",
+                    "CODIGO": "5874-821-PRO-5-1",
+                    "ETIPLAN": "D1",
+                    "TXTPLAN": "D1 ÁMBITO DE INTERÉS CULTURAL BIC ANTIGUO SANTA CRUZ",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 31
+                }
+            },
+            {
+                "capa": "CLA",
+                "datos": {
+                    "ETIQUETA": "SUC-IC",
+                    "CODIGO": "5874-821-SU_SUB-1-1-1_35_35",
+                    "ETIPLAN": "SUC-IC",
+                    "TXTPLAN": "Suelo Urbano Consolidado de Interés Cultural",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 35,
+                    "CODIGO_": "5874-821-SU_SUB-1-1-1_35",
+                    "CAPA": 20
+                }
+            },
+            {
+                "capa": "CLA",
+                "datos": {
+                    "ETIQUETA": "SUC",
+                    "CODIGO": "5874-821-SU-1-1_415_411",
+                    "ETIPLAN": "SUCO",
+                    "TXTPLAN": "Suelo Urbano Consolidado",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 411,
+                    "CODIGO_": "5874-821-SU-1-1_415",
+                    "CAPA": 20
+                }
+            },
+            {
+                "capa": "DES",
+                "datos": {
+                    "ETIQUETA": "PEP",
+                    "CODIGO": "5874-821-DES-1-1-5",
+                    "ETIPLAN": "AMB 2.7.2/PE",
+                    "TXTPLAN": "Ámbito 2.7.2  Antiguo Santa Cruz. Conjunto Histórico. Plan Especial",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 40
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AE.-2 Centro-Colinas",
+                    "CODIGO": "5874-821-ZON_EDIF-8_4123",
+                    "ETIPLAN": "AE.-2 Centro-Colinas",
+                    "TXTPLAN": "Área Estructural 2. Centro- Colinas",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 305,
+                    "CODIGO_": "5874-821-ZON_EDIF-8",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "EDIF",
+                "datos": {
+                    "ETIQUETA": "AOU 2.7",
+                    "CODIGO": "5874-821-ZON_EDIF-8-8_4488",
+                    "ETIPLAN": "AOU 2.7",
+                    "TXTPLAN": "Ámbito de Ordenación Urbanística 2.7 Centro",
+                    "OBS": null,
+                    "PDF": null,
+                    "ORIG_FID": 322,
+                    "CODIGO_": "5874-821-ZON_EDIF-8-8",
+                    "CAPA": 99
+                }
+            },
+            {
+                "capa": "UG",
+                "datos": {
+                    "ETIQUETA": "RE",
+                    "CODIGO": "5874-821-UG-1-3_204",
+                    "ETIPLAN": "R-T",
+                    "TXTPLAN": "Residencial-Terciario",
+                    "OBS": null,
+                    "PDF": null,
+                    "CAPA": 22,
+                    "ORIG_FID": 18,
+                    "CODIGO_": "5874-821-UG-1-3"
+                }
+            }
+        ]
+    }
+]

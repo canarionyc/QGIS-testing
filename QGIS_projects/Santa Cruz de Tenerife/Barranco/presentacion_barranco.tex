@@ -1,0 +1,468 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  ignorenonframetext,
+  aspectratio=169,
+  spanish,
+]{beamer}
+\newif\ifbibliography
+\usepackage{pgfpages}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{: }
+\setbeamercolor{caption name}{fg=normal text.fg}
+\beamertemplatenavigationsymbolshorizontal
+% remove section numbering
+\setbeamertemplate{part page}{
+  \centering
+  \begin{beamercolorbox}[sep=16pt,center]{part title}
+    \usebeamerfont{part title}\insertpart\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{section page}{
+  \centering
+  \begin{beamercolorbox}[sep=12pt,center]{section title}
+    \usebeamerfont{section title}\insertsection\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{subsection page}{
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center]{subsection title}
+    \usebeamerfont{subsection title}\insertsubsection\par
+  \end{beamercolorbox}
+}
+% Prevent slide breaks in the middle of a paragraph
+\widowpenalties 1 10000
+\raggedbottom
+\AtBeginPart{
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \frame{\subsectionpage}
+}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+
+\usetheme[]{Madrid}
+\usecolortheme[]{seahorse}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
+\usepackage{calc} % for calculating minipage widths
+\usepackage{caption}
+% Make caption package work with longtable
+\makeatletter
+\def\fnum@table{\tablename~\thetable}
+\makeatother
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+\ifLuaTeX
+\usepackage[bidi=basic,shorthands=off]{babel}
+\else
+\usepackage[bidi=default,shorthands=off]{babel}
+\fi
+\ifLuaTeX
+  \usepackage{selnolig} % disable illegal ligatures
+\fi
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Tabla de contenidos}
+\else
+  \newcommand\contentsname{Tabla de contenidos}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{Listado de Figuras}
+\else
+  \newcommand\listfigurename{Listado de Figuras}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{Listado de Tablas}
+\else
+  \newcommand\listtablename{Listado de Tablas}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figura}
+\else
+  \newcommand\figurename{Figura}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Tabla}
+\else
+  \newcommand\tablename{Tabla}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listado}
+\newcommand*\listoflistings{\listof{codelisting}{Listado de Listados}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={El Barranco de Santos},
+  pdfauthor={Análisis del Plan General de Ordenación},
+  pdflang={es},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{\texorpdfstring{El Barranco de Santos}{El Barranco de Santos}}
+\subtitle{\texorpdfstring{De Cicatriz Urbana a Sistema General
+Verde}{De Cicatriz Urbana a Sistema General Verde}}
+\author{Análisis del Plan General de Ordenación}
+\date{2026-05-08}
+
+\begin{document}
+\frame{\titlepage}
+
+
+\begin{frame}{Introducción Histórica}
+\protect\phantomsection\label{introducciuxf3n-histuxf3rica}
+\begin{block}{El Barranco como Límite}
+\protect\phantomsection\label{el-barranco-como-luxedmite}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{La Cicatriz Física:} Históricamente, el Barranco de Santos ha
+  funcionado como una barrera natural que divide Santa Cruz de Tenerife.
+\item
+  \textbf{Uso Tradicional:} Espacio marginal, infrautilizado y, en
+  tramos, degradado.
+\item
+  \textbf{El Cambio de Paradigma:} El nuevo planeamiento busca
+  transformar este ``vacío'' en el eje articulador de la ciudad.
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Gestión Urbanística}
+\protect\phantomsection\label{gestiuxf3n-urbanuxedstica}
+En el planeamiento español (y muy específicamente en el de Santa Cruz de
+Tenerife), definen los \textbf{Sistemas de Actuación}. Básicamente,
+indican qué mecanismo legal se usará para urbanizar ese suelo, quién
+pone el dinero y quién lidera el proceso.
+
+\begin{itemize}
+\item
+  \textbf{ASEXPR: Sistema de Expropiación} Es el sistema de iniciativa
+  \textbf{pública} pura.
+\item
+  \textbf{ASCOOP: Sistema de Cooperación} Iniciativa \textbf{pública},
+  pero financiada por los \textbf{privados}.
+\end{itemize}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{AACONV: Sistema de Concierto} Es un sistema \textbf{híbrido}
+  (público-privado).
+\end{itemize}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{ASPRIV: Sistema Privado (generalmente Compensación)}
+  Iniciativa \textbf{privada} bajo supervisión pública.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{El Futuro del Barranco}
+\protect\phantomsection\label{el-futuro-del-barranco}
+\begin{block}{Un Eje de Resiliencia}
+\protect\phantomsection\label{un-eje-de-resiliencia}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Conectividad:} Un corredor verde que une las colinas con el
+  mar.
+\item
+  \textbf{Sostenibilidad:} Protección de la flora autóctona y gestión de
+  riesgos hidráulicos.
+\item
+  \textbf{Conclusión:} El Barranco de Santos deja de ser una división
+  para ser el corazón verde de Santa Cruz.
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Gestion del Puente Zurita}
+\protect\phantomsection\label{gestion-del-puente-zurita}
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{PuenteZurita_GES2.png}}
+
+}
+
+\caption{label}
+
+\end{figure}%
+\end{frame}
+
+\begin{frame}{Gestion del Puente Serrador}
+\protect\phantomsection\label{gestion-del-puente-serrador}
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{PuenteSerrador_GES2.png}}
+
+}
+
+\caption{label}
+
+\end{figure}%
+\end{frame}
+
+\begin{frame}{Gestion del Puente Galceran}
+\protect\phantomsection\label{gestion-del-puente-galceran}
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{PuenteGalceran_GES2.png}}
+
+}
+
+\caption{Alt text}
+
+\end{figure}%
+\end{frame}
+
+\begin{frame}{Puente Zurita Uso de Zonas}
+\protect\phantomsection\label{puente-zurita-uso-de-zonas}
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{PuenteZurita_ZUSO.png}}
+
+}
+
+\caption{Puente Zurita Uso de Zonas}
+
+\end{figure}%
+\end{frame}
+
+\begin{frame}{Puente Galceran Uso de Zonas}
+\protect\phantomsection\label{puente-galceran-uso-de-zonas}
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{PuenteGalceran_ZUSO.png}}
+
+}
+
+\caption{Puente Galceran Uso de Zonas}
+
+\end{figure}%
+\end{frame}
+
+\begin{frame}{{[}Puente Serrador Uso de Zonas}
+\protect\phantomsection\label{puente-serrador-uso-de-zonas}
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{PuenteSerrador_ZUSO.png}}
+
+}
+
+\caption{Puente Serrador Uso de Zonas}
+
+\end{figure}%
+\end{frame}
+
+\begin{frame}{Estructuras}
+\protect\phantomsection\label{estructuras}
+\pandocbounded{\includegraphics[keepaspectratio]{Barranco de Santos Estructuras.png}}
+\end{frame}
+
+\begin{frame}{Fotos historicas}
+\protect\phantomsection\label{fotos-historicas}
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{Photos-3-001/La_Concepcion.jpg}}
+
+}
+
+\caption{Alt text}
+
+\end{figure}%
+\end{frame}
+
+\begin{frame}{Fotos historicas}
+\protect\phantomsection\label{fotos-historicas-1}
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{Photos-3-001/LAVANDERAS DEL BARRANCO SANTOS.jpg}}
+
+}
+
+\caption{label}
+
+\end{figure}%
+\end{frame}
+
+\begin{frame}{Fotos historicas}
+\protect\phantomsection\label{fotos-historicas-2}
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{Photos-3-001/13006893.jpg}}
+
+}
+
+\caption{label}
+
+\end{figure}%
+\end{frame}
+
+\begin{frame}{Fotos historicas}
+\protect\phantomsection\label{fotos-historicas-3}
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{Photos-3-001/baranco santos y el hospital de san jose.jpg}}
+
+}
+
+\caption{label}
+
+\end{figure}%
+\end{frame}
+
+\begin{frame}{Fotos historicas}
+\protect\phantomsection\label{fotos-historicas-4}
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{Photos-3-001/Barranco de Santos 2.jpg}}
+
+}
+
+\caption{label}
+
+\end{figure}%
+\end{frame}
+
+\begin{frame}{Fotos historicas}
+\protect\phantomsection\label{fotos-historicas-5}
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{Photos-3-001/Barranco Santos 6.jpg}}
+
+}
+
+\caption{label}
+
+\end{figure}%
+\end{frame}
+
+\begin{frame}{Fotos historicas}
+\protect\phantomsection\label{fotos-historicas-6}
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{Photos-3-001/galderan sobre barranco santos.jpg}}
+
+}
+
+\caption{Alt text}
+
+\end{figure}%
+\end{frame}
+
+\begin{frame}{Fotos historicas}
+\protect\phantomsection\label{fotos-historicas-7}
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{Photos-3-001/baranco_de_santos_foto.jpg}}
+
+}
+
+\caption{Alt text}
+
+\end{figure}%
+\end{frame}
+
+\begin{frame}{Apéndice: Notas sobre los Datos}
+\protect\phantomsection\label{apuxe9ndice-notas-sobre-los-datos}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Fuente:} Plan General de Ordenación (PGO).
+\item
+  \textbf{Herramientas:} Extracción mediante scripts de Python y
+  visualización en QGIS.
+\item
+  \textbf{Gemini AI}
+\end{itemize}
+\end{frame}
+
+
+
+
+\end{document}
