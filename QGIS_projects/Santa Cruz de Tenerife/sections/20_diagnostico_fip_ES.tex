@@ -1,0 +1,116 @@
+\section{Diagnóstico de la Estructura de Gestión del Suelo}
+
+A partir de la base de datos espacial normalizada del Plan General de Ordenación (formato FIP 2.0 \cite{sitcan_planeamiento_2026}
+  % integrado en PostGIS
+con ayuda del entorno de computación agéntica Google Antigravity \cite{google_antigravity_2026}),
+se analizó la estructura de gestión del suelo en el municipio.
+
+\subsection{Distribución de las Unidades de Actuación (UAs) por Categorías del Suelo}
+
+El análisis de las UAs delimitadas en el término municipal refleja una concentración determinante en el suelo urbano sujeto a procesos de regularización y renovación:
+
+\begin{table}[htbp]
+  \centering
+  \caption{Resumen de Unidades de Actuación por Categoría del Suelo}
+  \label{tab:resumen_suelo}
+  \vspace{0.2cm}
+  \input{tables/table_land_classes.tex}
+\end{table}
+
+De las 128 unidades delimitadas, el \textbf{97,7\%} (125 UAs) corresponden a \textbf{Suelo Urbano No Consolidado (SUNC)}, sumando una capacidad edificatoria lucrativa de más de 1,55 millones de $m^2c$. Por su parte, el \textbf{Suelo Urbanizable Sectorizado (SUS)} concentra únicamente 3 unidades (ubicadas en el ámbito residencial de El Tablero), con 80.778 $m^2c$.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.92\textwidth]{figures/chart_land_classes.pdf}
+  \caption{Capacidad edificatoria y número de UAs por categoría de suelo.}
+  \label{fig:chart_suelo}
+\end{figure}
+
+\subsection{Sistemas de Ejecución y Gestión Urbanística}
+
+El régimen de desarrollo de las actuaciones delimitadas determina el grado de iniciativa privada frente a la intervención directa de la administración municipal, conforme al marco legal autonómico regulado en el Título V de la Ley 4/2017, del Suelo y de los Espacios Protegidos de Canarias \cite{ley_suelo_canarias_2017}:
+
+\begin{table}[htbp]
+  \centering
+  \caption{Distribución de Unidades de Actuación según Sistema de Ejecución}
+  \label{tab:resumen_sistemas}
+  \vspace{0.2cm}
+  \input{tables/table_execution_systems.tex}
+\end{table}
+
+\begin{itemize}
+  \item \textbf{Compensación / Ejecución Privada (58,6\%)}: Mecanismo predominante, acumulando más de 1,16 millones de $m^2c$ edificables donde los propietarios asumen la redacción de los proyectos y las cesiones obligatorias (regulado en el \href{https://www.boe.es/buscar/act.php?id=BOE-A-2017-10295#ci-21}{Capítulo III} \cite{ley_suelo_canarias_2017}
+      %; consulta en \href{run:supporting_docs/BOE-A-2017-10295-consolidado.pdf#page=115}{PDF local, pág. 115}
+    ).
+  \item \textbf{Cooperación Pública (35,2\%)}: Abarca 45 unidades (463.292 $m^2c$), donde la ejecución de las obras corresponde al Ayuntamiento a costa de los propietarios (\href{https://www.boe.es/buscar/act.php?id=BOE-A-2017-10295#ci-22}{Capítulo IV}
+      %; consulta en \href{run:supporting_docs/BOE-A-2017-10295-consolidado.pdf#page=127}{PDF local, pág. 127}
+    ).
+  \item \textbf{Expropiación y Convenios (3,9\%)}: Reservados para ámbitos con afecciones de sistemas generales o actuaciones asistemáticas singulares.
+\end{itemize}
+
+\subsection{Planificación y Realidad: Verificación Aerofotogramétrica}
+
+El modelo de datos del FIP 2.0 constituye una proyección normativa y temporal de lo que debía ejecutarse en un horizonte legal máximo de 8 años (cuatrienios 2015--2019 y 2019--2023). Al haber expirado dicho plazo legal, la contrastación espacial entre las poligonales de las Unidades de Actuación (\texttt{v\_unidades\_actuacion}) y la cobertura aerofotogramétrica ortorrectificada de máxima actualidad de IDECanarias/GRAFCAN (\emph{OrtoExpress Urbana}, 10--12,5 cm/píxel) permite auditar de forma empírica el grado real de transformación del suelo sobre el territorio.
+
+La inspección sobre los principales nodos de desarrollo municipal revela un patrón sistemático de inejecución y parálisis:
+
+\subsubsection{Suelo Urbanizable Sectorizado: El Tablero (SUS 5.13)}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.88\textwidth]{figures/orto_detalle_el_tablero.jpg}
+  \caption{Superposición de las UAs del Sector SUS 5.13 (El Tablero) sobre la ortofoto aérea reciente de IDECanarias. Fuente: Elaboración propia a partir de datos del FIP 2.0 e IDECanarias.}
+  \label{fig:orto_el_tablero}
+\end{figure}
+
+Las tres unidades delimitadas en el sector (\textbf{UA-1, UA-2 y UA-3 de SSU 5.13},
+junto con la contigua \textbf{UA-RT-1 del Ámbito 5.16.2}) concentran la totalidad del suelo urbanizable residencial sectorizado del municipio,
+con más de 80.000 $m^2c$ de edificabilidad lucrativa programada.
+Como se aprecia en la ortofoto (Figura~\ref{fig:orto_el_tablero})
+la totalidad del ámbito permanece como una gran explanada terrosa y baldía encajada entre el núcleo preexistente y el campo de fútbol.
+No se ha ejecutado la red viaria estructurante, exceptuando la \textbf{UA-1}, no existen aceras recepcionadas ni se ha edificado una sola de las viviendas previstas.
+
+\subsubsection{Suelo Urbano No Consolidado: Cabo Llanos (Ámbito 2.5.3)}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.88\textwidth]{figures/orto_detalle_cabo_llanos.jpg}
+  \caption{Unidad de Actuación UA-RT-1 en el Ámbito 2.5.3 (Cabo Llanos) sobre ortofoto aérea. Fuente: Elaboración propia a partir de datos del FIP 2.0 e IDECanarias.}
+  \label{fig:orto_cabo_llanos}
+\end{figure}
+
+La \textbf{UA-RT-1 del Ámbito 2.5.3} acumula una capacidad lucrativa superior a los 25.000 $m^2c$ en el área de mayor valor terciario y residencial de la capital. La imagen aérea (Figura~\ref{fig:orto_cabo_llanos}) muestra que el polígono, delimitado en rojo y rodeado por manzanas residenciales de alta densidad completamente colmatadas, constituye un vacío urbano absoluto: un solar de tierra y polvo utilizado informalmente como descampado, sin que se haya materializado la reparcelación ni el proyecto de urbanización.
+
+\subsubsection{Suelo Urbano No Consolidado: Barranco de Santos (La Ladera)}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.72\textwidth]{figures/orto_detalle_barranco_santos.jpg}
+  \caption{Unidades de Actuación en La Ladera (Barranco de Santos) sobre ortofoto aérea. Fuente: Elaboración propia a partir de datos del FIP 2.0 e IDECanarias.}
+  \label{fig:orto_barranco_santos}
+\end{figure}
+
+El frente urbano sobre el Barranco de Santos refleja la complejidad del tejido intersticial (Figura~\ref{fig:orto_barranco_santos}):
+\begin{itemize}
+  \item \textbf{Ámbito 1.7.4A1 (La Ladera A1)}: Presenta un mosaico degradado de edificaciones irregulares preexistentes y una explanada terrosa empleada como estacionamiento no regulado.
+  \item \textbf{Ámbito 1.7.4A2 (La Ladera A2)}: Es una ladera escarpada de vegetación seca que vierte directamente al cauce, carente de viales, encintado de aceras o infraestructuras básicas de servicios.
+\end{itemize}
+
+\clearpage
+\subsubsection{Suelo Urbano No Consolidado: Montaña de Taco}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.72\textwidth]{figures/orto_detalle_montana_taco.jpg}
+  \caption{Ámbitos de gestión en Montaña de Taco (Industrial, Parque y Residencial) sobre ortofoto aérea. Fuente: Elaboración propia a partir de datos del FIP 2.0 e IDECanarias.}
+  \label{fig:orto_montana_taco}
+\end{figure}
+
+En el sector limítrofe de Montaña de Taco confluyen tres unidades con distinta vocación funcional (Figura~\ref{fig:orto_montana_taco}):
+\begin{itemize}
+  \item \textbf{Ámbito 4.9.4 (Parque Montaña de Taco)}: Permanece como una gran cantera de extracción de áridos a cielo abierto, sin haber acometido la restauración ambiental ni la ejecución del sistema general de parque urbano.
+  \item \textbf{Ámbito 4.9.5 (Montaña de Taco Residencial)}: Mantiene su condición de ladera baldía y terrosa sin traza viaria ni urbanización.
+  \item \textbf{Ámbito 4.9.3 (Montaña de Taco Industrial)}: Agrupa naves fabriles obsoletas y patios de acopio industrial sin el proceso de renovación urbana exigido por el planeamiento.
+\end{itemize}
+
+Este contraste evidencia que la inoperancia de los sistemas de ejecución privada (compensación) y la parálisis administrativa derivada de la anulación judicial del PGO de 2013/2015 han mantenido bloqueada la bolsa de suelo lucrativo del municipio, impidiendo que la oferta de suelo programada diera respuesta a las necesidades habitacionales y funcionales de Santa Cruz de Tenerife.

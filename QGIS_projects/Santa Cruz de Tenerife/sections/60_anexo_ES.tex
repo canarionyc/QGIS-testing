@@ -1,0 +1,102 @@
+\section{Planos y Ejemplos de Planeamiento}
+
+A continuación se incorpora la serie de cartografía oficial del Plan General de Ordenación (PGO) en formato apaisado a página completa, estructurada en los siguientes planos de ordenación pormenorizada y estructural:
+\begin{itemize}
+  \item \textbf{PO-01}: Síntesis del Modelo de Ordenación Estructural.
+  \item \textbf{PO-02}: Clasificación del Suelo y Categorías.
+  \item \textbf{PO-03}: Ámbitos de Gestión y Sectores de Planeamiento.
+  \item \textbf{PO-03B}: Ámbitos y Sectores (Cartografía complementaria).
+  \item \textbf{PO-04}: Usos Globales Característicos.
+\end{itemize}
+Posteriormente se incorporan los planos de trabajo y las consultas urbanísticas de ejemplo.
+
+% 1. PO-01: Síntesis del Modelo de Ordenación Estructural
+\includepdf[pages=1,landscape=true,scale=0.98,addtotoc={1,subsection,2,Síntesis del Modelo de Ordenación Estructural (PO-01),sec:map_po01}]{premade_maps/pgo_sctf_po01_1.jpg}
+
+% 2. PO-02: Clasificación del Suelo y Categorías
+\includepdf[pages=1,landscape=true,scale=0.98,addtotoc={1,subsection,2,Clasificación del Suelo y Categorías (PO-02),sec:map_po02}]{premade_maps/pgo_sctf_po02_2.jpg}
+
+% 3. PO-03: Ámbitos y Sectores de Planeamiento
+\includepdf[pages=1,landscape=true,scale=0.98,addtotoc={1,subsection,2,Ámbitos y Sectores de Planeamiento (PO-03),sec:map_po03}]{premade_maps/pgo_sctf_po03.jpg}
+
+% 4. PO-03B: Ámbitos y Sectores (Detalle complementario: Igueste-San Andrés)
+\includepdf[pages=1,landscape=true,scale=0.98,addtotoc={1,subsection,2,Ámbitos y Sectores - Ámbito Complementario (PO-03B),sec:map_po03b}]{premade_maps/pgo_sctf_po03br.jpg}
+
+% 5. PO-04: Usos Globales Característicos
+\includepdf[pages=1,landscape=true,scale=0.98,addtotoc={1,subsection,2,Usos Globales Característicos (PO-04),sec:map_po04}]{premade_maps/pgo_sctf_po04.jpg}
+
+
+
+%\subsection{Plano de Planeamiento Vigente}
+% Adaptación actual con ámbitos en suspensión cautelar por sentencias del TSJC (Servicio WMS IDECanarias \cite{idecanarias_wms_2026}).
+
+% % 1. Plano de Planeamiento Vigente
+% \includepdf[pages=-,addtotoc={1,subsection,2,Plano de Planeamiento Vigente (2013),sec:plan_vigente}]{../../output/Plano_Planeamiento_Vigente_A4.pdf}
+
+% \href{https://mapas.idecanarias.es/mapas/ideweb}{\url{https://mapas.idecanarias.es/mapas/ideweb}}
+
+% 6. Reporte Fotográfico SUNC (Lámina A4 apaisada con títulos integrados)
+\begin{landscape}
+  \refstepcounter{subsection}%
+  \addcontentsline{toc}{subsection}{\protect\numberline{\thesubsection}Ejemplos de SUNC y SUSO}%
+  \subsection*{\thesubsection\quad Ejemplos de SUNC y SUSO}
+  \label{sec:ejemplos}
+  \refstepcounter{subsubsection}%
+  \addcontentsline{toc}{subsubsection}{\protect\numberline{\thesubsubsection}Reporte Fotográfico Geolocalizado: SUNC}%
+  \subsubsection*{\thesubsubsection\quad Reporte Fotográfico Geolocalizado: SUNC}
+  \label{sec:fotos_sunc}
+  \vspace{-0.2cm}\footnotesize Levantamiento geolocalizado en Suelo Urbano No Consolidado con flechas directrices hacia el núcleo urbano.\vspace{0.2cm}
+
+  \noindent
+  \centering
+  \includegraphics[width=\linewidth,height=0.75\textheight,keepaspectratio]{Plano_Fotografias.pdf}
+\end{landscape}
+
+% Cédula SUNC: 3 páginas reducidas en 1 sola hoja apaisada mediante minipages
+\begin{landscape}
+  \refstepcounter{subsubsection}%
+  \addcontentsline{toc}{subsubsection}{\protect\numberline{\thesubsubsection}Cédula Urbanística Oficial (SUNC)}%
+  \subsubsection*{\thesubsubsection\quad Cédula Urbanística Oficial: Suelo Urbano No Consolidado (SUNC)}
+  \noindent
+  \begin{minipage}[t]{0.32\linewidth}
+    \centering
+    \includegraphics[page=1,width=\linewidth,height=0.74\textheight,keepaspectratio]{\detokenize{Consulta de Planeamiento/SUNC-ejemplo.pdf}}\\[2pt]
+    \footnotesize Hoja 1: Datos identificativos y régimen
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.32\linewidth}
+    \centering
+    \includegraphics[page=2,width=\linewidth,height=0.74\textheight,keepaspectratio]{\detokenize{Consulta de Planeamiento/SUNC-ejemplo.pdf}}\\[2pt]
+    \footnotesize Hoja 2: Parámetros y condiciones de edificación
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.32\linewidth}
+    \centering
+    \includegraphics[page=3,width=\linewidth,height=0.74\textheight,keepaspectratio]{\detokenize{Consulta de Planeamiento/SUNC-ejemplo.pdf}}\\[2pt]
+    \footnotesize Hoja 3: Cartografía y alineaciones
+  \end{minipage}
+\end{landscape}
+
+
+% Cédula SUSO: 3 páginas reducidas en 1 sola hoja apaisada mediante minipages
+\begin{landscape}
+  \refstepcounter{subsubsection}%
+  \addcontentsline{toc}{subsubsection}{\protect\numberline{\thesubsubsection}Cédula Urbanística Oficial (SUSO)}%
+  \subsubsection*{\thesubsubsection\quad Cédula Urbanística Oficial: Suelo Urbanizable Sectorizado Ordenado (SUSO)}
+  \vspace{-0.2cm}\footnotesize Consulta de planeamiento oficial para SUSO (el levantamiento fotográfico asociado se incorporará próximamente).\vspace{0.2cm}
+
+  \noindent
+  \begin{minipage}[t]{0.32\linewidth}
+    \centering
+    \includegraphics[page=1,width=\linewidth,height=0.74\textheight,keepaspectratio]{\detokenize{Consulta de Planeamiento/SUSO-ejemplo.pdf}}\\[2pt]
+    \footnotesize Hoja 1: Datos identificativos y sector
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.32\linewidth}
+    \centering
+    \includegraphics[page=2,width=\linewidth,height=0.74\textheight,keepaspectratio]{\detokenize{Consulta de Planeamiento/SUSO-ejemplo.pdf}}\\[2pt]
+    \footnotesize Hoja 2: Ficha urbanística y ordenación
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.32\linewidth}
+    \centering
+    \includegraphics[page=3,width=\linewidth,height=0.74\textheight,keepaspectratio]{\detokenize{Consulta de Planeamiento/SUSO-ejemplo.pdf}}\\[2pt]
+    \footnotesize Hoja 3: Plano catastral y delimitación
+  \end{minipage}
+\end{landscape}

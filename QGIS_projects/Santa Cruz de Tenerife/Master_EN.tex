@@ -1,0 +1,59 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{fontspec}
+\setmainfont{Segoe UI}
+\setsansfont{Segoe UI Semibold}
+\usepackage[english, en-tabla]{babel}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
+\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{pdflscape}
+\usepackage[hyphens]{url}
+\usepackage{hyperref}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!70!black,
+  urlcolor=blue!80!black,
+  pdftitle={Informe de Planeamiento Urbanístico de Santa Cruz de Tenerife},
+  pdfauthor={Tomás González Llarena}
+}
+
+% Formatting section headers
+\titleformat{\section}
+{\normalfont\Large\bfseries\color{blue!60!black}}{\thesection}{1em}{}
+\titleformat{\subsection}
+{\normalfont\large\bfseries\color{gray!80!black}}{\thesubsection}{1em}{}
+
+% ==============================================================================
+% DRAFTING ACCELERATOR:
+% Uncomment the line below to compile ONLY the section you are currently editing,
+% skipping heavy PDF attachments for instant sub-second previews!
+% \includeonly{sections/02_diagnostico_fip}
+% ==============================================================================
+
+\title{\textbf{Urban Planning Report of Santa Cruz de Tenerife}}
+\author{Tomás González Llarena}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\newpage
+
+\include{sections/10_resumen_ejecutivo_EN}
+\include{sections/15_introduccion_EN}
+\include{sections/20_diagnostico_fip_EN}
+%\include{sections/30_planos_cartografia}
+\include{sections/40_conclusiones_EN}
+\include{sections/50_bibliografia_EN}
+\appendix
+\include{sections/60_anexo_EN}
+
+\end{document}

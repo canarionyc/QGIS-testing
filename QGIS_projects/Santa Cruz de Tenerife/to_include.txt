@@ -1,0 +1,9 @@
+# sintesis del modelo de ordenacion esctructural
+"C:\dev\QGIS-testing\data\Santa Cruz de Tenerife\PGO_20150811\POP\pgo_sctf_po01\pgo_sctf_po01_1.jpg"
+# clasificacion del suelo y categorias
+"C:\dev\QGIS-testing\data\Santa Cruz de Tenerife\PGO_20150811\POP\pgo_sctf_po02\pgo_sctf_po02_2.jpg"
+# ambitos y sectores
+"C:\dev\QGIS-testing\data\Santa Cruz de Tenerife\PGO_20150811\POP\pgo_sctf_po03\pgo_sctf_po03.jpg"
+"C:\dev\QGIS-testing\data\Santa Cruz de Tenerife\PGO_20150811\POP\pgo_sctf_po03\pgo_sctf_po03br.jpg"
+# usos globales caracteristicos
+"C:\dev\QGIS-testing\data\Santa Cruz de Tenerife\PGO_20150811\POP\pgo_sctf_po04\pgo_sctf_po04.jpg"

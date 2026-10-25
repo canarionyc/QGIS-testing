@@ -1,0 +1,47 @@
+{
+  "inmigracion_exterior": {
+    "nombre": "Ambos sexos. Santa Cruz de Tenerife. Total. Dato base. Inmigraciones procedentes del extranjero. ",
+    "data": {
+      "2021": 2700.0,
+      "2022": 3583.0,
+      "2023": 3975.0,
+      "2024": 3920.0
+    }
+  },
+  "emigracion_exterior": {
+    "nombre": "Ambos sexos. Santa Cruz de Tenerife. Total. Dato base. Emigraciones con destino al extranjero. ",
+    "data": {
+      "2021": 1992.0,
+      "2022": 1504.0,
+      "2023": 1889.0,
+      "2024": 2125.0
+    }
+  },
+  "saldo_exterior": {
+    "nombre": "Santa Cruz de Tenerife. Ambos sexos. Saldo exterior. Dato base. ",
+    "data": {
+      "2021": 6540.0,
+      "2022": 17623.0,
+      "2023": 14378.0,
+      "2024": 12703.0
+    }
+  },
+  "saldo_interior": {
+    "nombre": "Santa Cruz de Tenerife. Ambos sexos. Saldo interior. Dato base. ",
+    "data": {
+      "2021": 47.0,
+      "2022": 1291.0,
+      "2023": 763.0,
+      "2024": -315.0
+    }
+  },
+  "saldo_total": {
+    "nombre": "Santa Cruz de Tenerife. Ambos sexos. Saldo total. Dato base. ",
+    "data": {
+      "2021": 6587.0,
+      "2022": 18914.0,
+      "2023": 15141.0,
+      "2024": 12388.0
+    }
+  }
+}

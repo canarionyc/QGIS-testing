@@ -11,8 +11,9 @@
 \usepackage{booktabs}
 \usepackage{graphicx}
 \usepackage{pdfpages}
+\usepackage{pdflscape}
+\usepackage[hyphens]{url}
 \usepackage{hyperref}
-\def\UrlBreaks{\do\/\do-\do_}
 
 \hypersetup{
   colorlinks=true,
@@ -37,7 +38,7 @@
 
 \title{\textbf{Informe de Planeamiento Urbanístico de Santa Cruz de Tenerife}}
 \author{Tomás González Llarena}
-\date{24 de octubre de 2026}
+\date{\today}
 
 \begin{document}
 
@@ -46,11 +47,13 @@
 \tableofcontents
 \newpage
 
-\include{sections/01_resumen_ejecutivo}
-\include{sections/02_diagnostico_fip}
-\include{sections/03_planos_cartografia}
-\include{sections/04_conclusiones}
-\include{sections/05_bibliografia}
-% \include{sections/06_anexos}
+\include{sections/10_resumen_ejecutivo_ES}
+\include{sections/15_introduccion_ES}
+\include{sections/20_diagnostico_fip_ES}
+%\include{sections/30_planos_cartografia}
+\include{sections/40_conclusiones_ES}
+\include{sections/50_bibliografia_ES}
+\appendix
+\include{sections/60_anexo_ES}
 
 \end{document}
