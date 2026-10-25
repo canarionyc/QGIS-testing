@@ -1,0 +1,111 @@
+\section{Diagnosis of the Land Management Structure}
+
+Based on the standardized spatial database of the General Urban Plan (FIP 2.0 format \cite{sitcan_planeamiento_2026}
+  % integrated into PostGIS
+using the Google Antigravity agentic computing environment \cite{google_antigravity_2026}),
+the land management structure of the municipality was analyzed.
+
+\subsection{Distribution of Execution Units (UAs) by Land Categories}
+
+The analysis of delimited UAs across the municipality reflects a decisive concentration within urban land undergoing regularization and renewal:
+
+\begin{table}[htbp]
+  \centering
+  \caption{Summary of Execution Units by Land Category}
+  \label{tab:resumen_suelo}
+  \vspace{0.2cm}
+  \input{tables/table_land_classes_EN.tex}
+\end{table}
+
+Of the 128 delimited units, \textbf{97.7\%} (125 UAs) correspond to \textbf{Unconsolidated Urban Land} (SUNC), totaling over 1.55 million $m^2c$ of developable lucrative capacity. Conversely, \textbf{Sectorized Urbanizable Land} (SUS) comprises only 3 units (located within the residential sector of El Tablero), with 80,778 $m^2c$.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.92\textwidth]{figures/chart_land_classes.pdf}
+  \caption{Buildability and number of UAs by land category.}
+  \label{fig:chart_suelo}
+\end{figure}
+
+\subsection{Execution Systems and Urban Management}
+
+The development regime of the delimited units determines the degree of private initiative versus direct municipal intervention, pursuant to the regional legal framework regulated under Title V of Law 4/2017 on Land and Protected Areas of the Canary Islands \cite{ley_suelo_canarias_2017}:
+
+\begin{table}[htbp]
+  \centering
+  \caption{Distribution of Execution Units by Execution System}
+  \label{tab:resumen_sistemas}
+  \vspace{0.2cm}
+  \input{tables/table_execution_systems_EN.tex}
+\end{table}
+
+\begin{itemize}
+  \item \textbf{Private Compensation / Private Execution (58.6\%)}: The predominant mechanism, encompassing more than 1.16 million $m^2c$ of buildability where private landowners bear the costs of drafting development projects and mandatory public cessions (governed under \href{https://www.boe.es/buscar/act.php?id=BOE-A-2017-10295#ci-21}{Chapter III} \cite{ley_suelo_canarias_2017}
+      %; local PDF ref, p. 115
+    ).
+  \item \textbf{Public Cooperation (35.2\%)}: Covers 45 units (463,292 $m^2c$), wherein the execution of urbanization works is conducted directly by the City Council at the financial expense of the landowners (\href{https://www.boe.es/buscar/act.php?id=BOE-A-2017-10295#ci-22}{Chapter IV}
+      %; local PDF ref, p. 127
+    ).
+  \item \textbf{Expropriation and Planning Agreements (3.9\%)}: Reserved for areas impacted by general systems or unique non-systematic interventions.
+\end{itemize}
+
+\subsection{Planning and Reality: Aerial Photogrammetric Verification}
+
+The FIP 2.0 data model constitutes a statutory and temporal projection of what was scheduled to be executed over a maximum legal horizon of 8 years (four-year periods 2015--2019 and 2019--2023). Given that this statutory deadline has expired, spatial cross-referencing between the Execution Unit polygons (\texttt{v\_unidades\_actuacion}) and the latest orthorectified aerial photogrammetric coverage from IDECanarias/GRAFCAN (\emph{OrtoExpress Urbana}, 10--12.5 cm/pixel) enables an empirical audit of the actual degree of on-the-ground land transformation.
+
+Inspection of the primary municipal development nodes reveals a systematic pattern of non-execution and paralysis:
+
+\subsubsection{Sectorized Urbanizable Land: El Tablero (SUS 5.13)}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.88\textwidth]{figures/orto_detalle_el_tablero.jpg}
+  \caption{Overlay of Sector SUS 5.13 (El Tablero) UAs on recent IDECanarias aerial orthophoto. Source: Author's elaboration based on FIP 2.0 and IDECanarias data.}
+  \label{fig:orto_el_tablero}
+\end{figure}
+
+The three units delimited within the sector (\textbf{UA-1, UA-2, and UA-3 of SSU 5.13}, together with the adjoining \textbf{UA-RT-1 of Sector 5.16.2}) concentrate the entire sectorized residential urbanizable land of the municipality, totaling over 80,000 $m^2c$ of programmed lucrative buildability. As seen in the orthophoto (Figure~\ref{fig:orto_el_tablero}), the entire sector remains a vast dirt expanse wedged between the pre-existing settlement and the soccer field. The structural road network has not been executed; with the exception of \textbf{UA-1}, there are no completed sidewalks, and not a single planned dwelling has been constructed.
+
+\subsubsection{Unconsolidated Urban Land: Cabo Llanos (Sector 2.5.3)}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.88\textwidth]{figures/orto_detalle_cabo_llanos.jpg}
+  \caption{Execution Unit UA-RT-1 in Sector 2.5.3 (Cabo Llanos) on aerial orthophoto. Source: Author's elaboration based on FIP 2.0 and IDECanarias data.}
+  \label{fig:orto_cabo_llanos}
+\end{figure}
+
+\textbf{UA-RT-1 of Sector 2.5.3} encompasses a lucrative capacity exceeding 25,000 $m^2c$ in the highest-value commercial and residential sector of the capital. The aerial image (Figure~\ref{fig:orto_cabo_llanos}) shows that the polygon, outlined in red and bordered by fully consolidated high-density residential blocks, represents an absolute urban void: a dirt lot used informally as an unpaved open space, with neither reparceling nor urbanization having taken place.
+
+\subsubsection{Unconsolidated Urban Land: Barranco de Santos (La Ladera)}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.72\textwidth]{figures/orto_detalle_barranco_santos.jpg}
+  \caption{Execution Units in La Ladera (Barranco de Santos) on aerial orthophoto. Source: Author's elaboration based on FIP 2.0 and IDECanarias data.}
+  \label{fig:orto_barranco_santos}
+\end{figure}
+
+The urban front overlooking the Barranco de Santos highlights the complexity of the interstitial urban fabric (Figure~\ref{fig:orto_barranco_santos}):
+\begin{itemize}
+  \item \textbf{Sector 1.7.4A1 (La Ladera A1)}: Exhibits a degraded mosaic of pre-existing irregular buildings and an unpaved expanse utilized as informal parking.
+  \item \textbf{Sector 1.7.4A2 (La Ladera A2)}: Consists of a steep hillside with dry scrub vegetation sloping directly into the ravine bed, devoid of roadways, curbed sidewalks, or basic utility infrastructure.
+\end{itemize}
+
+\clearpage
+\subsubsection{Unconsolidated Urban Land: Montaña de Taco}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.72\textwidth]{figures/orto_detalle_montana_taco.jpg}
+  \caption{Management sectors in Montaña de Taco (Industrial, Park, and Residential) on aerial orthophoto. Source: Author's elaboration based on FIP 2.0 and IDECanarias data.}
+  \label{fig:orto_montana_taco}
+\end{figure}
+
+Along the municipal boundary of Montaña de Taco, three units with distinct functional vocations converge (Figure~\ref{fig:orto_montana_taco}):
+\begin{itemize}
+  \item \textbf{Sector 4.9.4 (Parque Montaña de Taco)}: Remains a vast open-pit aggregate quarry, with neither environmental restoration nor development of the general urban park system underway.
+  \item \textbf{Sector 4.9.5 (Montaña de Taco Residencial)}: Retains its condition as an unpaved, barren hillside without street layout or urbanization.
+  \item \textbf{Sector 4.9.3 (Montaña de Taco Industrial)}: Encompasses obsolete industrial warehouses and open storage yards lacking the urban renewal mandated by planning regulations.
+\end{itemize}
+
+This contrast demonstrates that the failure of private execution systems (compensation) and the administrative paralysis stemming from the judicial annulment of the 2013/2015 PGO have kept the municipality's lucrative land reserves locked, preventing the programmed land supply from responding to the housing and functional needs of Santa Cruz de Tenerife.

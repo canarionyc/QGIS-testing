@@ -1,0 +1,284 @@
+\documentclass[11pt]{article}
+
+\usepackage{fontspec}
+\setmainfont{Segoe UI}
+\setsansfont{Segoe UI Semibold}
+
+% Optimal 4:5 LinkedIn Mobile Carousel Aspect Ratio (160mm x 200mm)
+\usepackage[paperwidth=160mm, paperheight=200mm, top=10mm, bottom=10mm, left=10mm, right=10mm]{geometry}
+
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+\usepackage{hyperref}
+
+\pagestyle{empty}
+\parindent=0pt
+
+% Color Palette
+\definecolor{brandblue}{HTML}{0284C7}
+\definecolor{brandnavy}{HTML}{0B192C}
+\definecolor{branddark}{HTML}{1E293B}
+\definecolor{brandcoral}{HTML}{E11D48}
+\definecolor{brandgreen}{HTML}{0D9488}
+\definecolor{brandgray}{HTML}{64748B}
+\definecolor{brandlight}{HTML}{F8FAFC}
+\definecolor{brandborder}{HTML}{CBD5E1}
+
+% Header Macro
+\newcommand{\slideheader}[3]{%
+  \begin{minipage}{\linewidth}
+    \raggedright
+    \begin{tikzpicture}[baseline=(pill.base)]
+      \node (pill) [fill=brandblue!15, text=brandblue!90!black, font=\bfseries\footnotesize, rounded corners=3pt, inner sep=4pt] {#1};
+    \end{tikzpicture}%
+    \hfill
+    \begin{tikzpicture}[baseline=(num.base)]
+      \node (num) [fill=brandnavy!10, text=brandnavy, font=\bfseries\footnotesize, rounded corners=3pt, inner sep=4pt] {#2};
+    \end{tikzpicture}\\[6pt]
+    {\fontsize{18}{22}\selectfont \textbf{\color{brandnavy}#3}}\\[2pt]
+  \end{minipage}%
+  \vspace{4pt}%
+}
+
+% Footer Macro
+\newcommand{\slidefooter}[2]{%
+  \vfill
+  \begin{minipage}{\linewidth}
+    \color{brandborder}\hrule height 0.8pt\vspace{6pt}
+    \color{brandgray}\footnotesize
+    \textbf{Tomás González Llarena} $\;\cdot\;$ Spatial Analysis \& Urban Planning
+    \hfill
+    \textbf{\color{brandblue}#1}
+  \end{minipage}%
+}
+
+\begin{document}
+
+% ==============================================================================
+% SLIDE 1: COVER (MAXIMAL HOOK)
+% ==============================================================================
+\slideheader{URBAN PLANNING \& SPATIAL DATA}{1 / 6}{Why Santa Cruz de Tenerife Has a Land Supply Bottleneck}
+\vspace{-2pt}
+{\fontsize{11}{13}\selectfont \color{brandcoral}\textbf{\textit{(And why blaming "overtourism" is statistically false)}}}\\[6pt]
+
+\begin{tcolorbox}[enhanced, colback=white, colframe=brandborder, boxrule=0.8pt, arc=5pt, left=3pt, right=3pt, top=3pt, bottom=3pt]
+  \centering
+  \includegraphics[width=\linewidth, height=92mm, keepaspectratio]{figures/orto_detalle_cabo_llanos.jpg}
+\end{tcolorbox}
+\vspace{4pt}
+
+\begin{minipage}{\linewidth}
+  \begin{tcolorbox}[enhanced, colback=brandlight, colframe=brandborder, boxrule=0.6pt, arc=5pt, left=6pt, right=6pt, top=6pt, bottom=6pt]
+    \begin{minipage}[t]{0.31\linewidth}
+      \centering
+      {\fontsize{15}{18}\selectfont \textbf{\color{brandcoral}1.55M $m^2$}}\\[2pt]
+      \scriptsize \color{branddark}\textbf{Land Frozen}\\
+      \tiny \color{brandgray}Unconsolidated Urban
+    \end{minipage}\hfill\vline\hfill
+    \begin{minipage}[t]{0.31\linewidth}
+      \centering
+      {\fontsize{15}{18}\selectfont \textbf{\color{brandnavy}97.7\%}}\\[2pt]
+      \scriptsize \color{branddark}\textbf{Units Blocked}\\
+      \tiny \color{brandgray}125 of 128 UAs
+    \end{minipage}\hfill\vline\hfill
+    \begin{minipage}[t]{0.31\linewidth}
+      \centering
+      {\fontsize{15}{18}\selectfont \textbf{\color{brandgreen}0 Dwellings}}\\[2pt]
+      \scriptsize \color{branddark}\textbf{Built in 10 Yrs}\\
+      \tiny \color{brandgray}In scheduled sectors
+    \end{minipage}
+  \end{tcolorbox}
+\end{minipage}
+
+\slidefooter{Swipe to see the data $\to$}{1}
+\newpage
+
+% ==============================================================================
+% SLIDE 2: THE OROGRAPHY ILLUSION
+% ==============================================================================
+\slideheader{TERRITORIAL REALITY}{2 / 6}{The Great Density Illusion: Diluted by Anaga}
+\vspace{-2pt}
+{\fontsize{10}{12}\selectfont \color{brandgray}Official municipal figures deceive because 80\% of the territory is wild volcanic mountain.}\\[4pt]
+
+\begin{tcolorbox}[enhanced, colback=white, colframe=brandborder, boxrule=0.8pt, arc=5pt, left=3pt, right=3pt, top=3pt, bottom=3pt]
+  \centering
+  \includegraphics[width=\linewidth, height=88mm, keepaspectratio]{premade_maps/pgo_sctf_po02_2.jpg}
+\end{tcolorbox}
+\vspace{4pt}
+
+\begin{minipage}{\linewidth}
+  \begin{tcolorbox}[enhanced, colback=brandlight, colframe=brandborder, boxrule=0.6pt, arc=5pt, left=6pt, right=6pt, top=6pt, bottom=6pt]
+    \begin{minipage}[t]{0.31\linewidth}
+      \centering
+      {\fontsize{13}{15}\selectfont \textbf{\color{brandgray}1,385 hab/km²}}\\[2pt]
+      \scriptsize \textbf{Municipal Average}\\
+      \tiny \color{brandgray}Diluted across 150 km² including Anaga wilderness.
+    \end{minipage}\hfill\vline\hfill
+    \begin{minipage}[t]{0.31\linewidth}
+      \centering
+      {\fontsize{13}{15}\selectfont \textbf{\color{brandcoral}>12,000 hab/km²}}\\[2pt]
+      \scriptsize \textbf{Real Habitable Core}\\
+      \tiny \color{branddark}As packed as Madrid, Barcelona, or London.
+    \end{minipage}\hfill\vline\hfill
+    \begin{minipage}[t]{0.31\linewidth}
+      \centering
+      {\fontsize{13}{15}\selectfont \textbf{\color{brandgreen}80\% Protected}}\\[2pt]
+      \scriptsize \textbf{Biosphere Reserve}\\
+      \tiny \color{brandgray}Expansion is legally and physically impossible.
+    \end{minipage}
+  \end{tcolorbox}
+\end{minipage}
+
+\slidefooter{Swipe $\to$}{2}
+\newpage
+
+% ==============================================================================
+% SLIDE 3: THE TOURISM FALLACY
+% ==============================================================================
+\slideheader{TOURISM VS HOUSING}{3 / 6}{Cruise Daytrippers $\neq$ Real Estate Demand}
+\vspace{-2pt}
+{\fontsize{10}{12}\selectfont \color{brandgray}Downtown feels crowded, but visitors sleep on ships, consuming 0 residential beds.}\\[4pt]
+
+\begin{tcolorbox}[enhanced, colback=white, colframe=brandborder, boxrule=0.8pt, arc=5pt, left=3pt, right=3pt, top=3pt, bottom=3pt]
+  \centering
+  \includegraphics[width=\linewidth, height=92mm, keepaspectratio]{figures/demographics_trend.pdf}
+\end{tcolorbox}
+\vspace{4pt}
+
+\begin{minipage}{\linewidth}
+  \begin{minipage}[t]{0.485\linewidth}
+    \begin{tcolorbox}[enhanced, colback=brandlight, colframe=brandborder, boxrule=0.6pt, arc=5pt, left=6pt, right=6pt, top=5pt, bottom=5pt]
+      {\fontsize{14}{16}\selectfont \textbf{\color{brandnavy}972,000}}\\[2pt]
+      \scriptsize \textbf{Cruise Passengers / Year}\\
+      \tiny \color{brandgray}\textbf{0 residential impact}: 65\% port-of-call transit for 4--8 hours; return to ship before dinner.
+    \end{tcolorbox}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \begin{tcolorbox}[enhanced, colback=brandlight, colframe=brandborder, boxrule=0.6pt, arc=5pt, left=6pt, right=6pt, top=5pt, bottom=5pt]
+      {\fontsize{14}{16}\selectfont \textbf{\color{brandblue}$\approx$ 1,600 Beds}}\\[2pt]
+      \scriptsize \textbf{Regulated Lodging (ISTAC)}\\
+      \tiny \color{brandgray}\textbf{$<$0.8\% of population}: Santa Cruz is an administrative capital, not a resort enclave.
+    \end{tcolorbox}
+  \end{minipage}
+\end{minipage}
+
+\slidefooter{Swipe $\to$}{3}
+\newpage
+
+% ==============================================================================
+% SLIDE 4: THE REAL DEMOGRAPHIC SHIFT
+% ==============================================================================
+\slideheader{DEMOGRAPHIC REALITY}{4 / 6}{The True Driver: The Transatlantic Inversion}
+\vspace{-2pt}
+{\fontsize{10}{12}\selectfont \color{brandgray}From an emigration society to a permanent returnee destination (INE / ISTAC data).}\\[4pt]
+
+\begin{tcolorbox}[enhanced, colback=white, colframe=brandborder, boxrule=0.8pt, arc=5pt, left=3pt, right=3pt, top=3pt, bottom=3pt]
+  \centering
+  \includegraphics[width=\linewidth, height=92mm, keepaspectratio]{figures/migration_trend.pdf}
+\end{tcolorbox}
+\vspace{4pt}
+
+\begin{minipage}{\linewidth}
+  \begin{tcolorbox}[enhanced, colback=brandlight, colframe=brandborder, boxrule=0.6pt, arc=5pt, left=6pt, right=6pt, top=6pt, bottom=6pt]
+    \begin{minipage}[t]{0.31\linewidth}
+      \centering
+      {\fontsize{14}{16}\selectfont \textbf{\color{brandnavy}+2,500/yr}}\\[2pt]
+      \scriptsize \textbf{Net Balance}\\
+      \tiny \color{brandgray}Permanent new arrivals
+    \end{minipage}\hfill\vline\hfill
+    \begin{minipage}[t]{0.31\linewidth}
+      \centering
+      {\fontsize{14}{16}\selectfont \textbf{\color{brandblue}16,776}}\\[2pt]
+      \scriptsize \textbf{Foreign Census}\\
+      \tiny \color{brandgray}Quadrupled since 2000
+    \end{minipage}\hfill\vline\hfill
+    \begin{minipage}[t]{0.31\linewidth}
+      \centering
+      {\fontsize{14}{16}\selectfont \textbf{\color{brandcoral}+34,000}}\\[2pt]
+      \scriptsize \textbf{Homes Needed}\\
+      \tiny \color{brandgray}3.4 $\rightarrow$ 2.2 people/home
+    \end{minipage}
+  \end{tcolorbox}
+\end{minipage}
+
+\slidefooter{Swipe $\to$}{4}
+\newpage
+
+% ==============================================================================
+% SLIDE 5: THE GROUND TRUTH (AERIAL AUDIT)
+% ==============================================================================
+\slideheader{AERIAL GROUND AUDIT}{5 / 6}{The Ground Truth: 10 Years Later, Still Dirt}
+\vspace{-2pt}
+{\fontsize{10}{12}\selectfont \color{brandgray}Both 4-year stages of the 2015 PGO expired in 2023. Prime sectors remain unbuilt.}\\[4pt]
+
+\begin{minipage}{\linewidth}
+  \begin{minipage}[t]{0.485\linewidth}
+    \begin{tcolorbox}[enhanced, colback=white, colframe=brandborder, boxrule=0.8pt, arc=5pt, left=2pt, right=2pt, top=2pt, bottom=2pt]
+      \centering
+      \includegraphics[width=\linewidth, height=75mm, keepaspectratio]{figures/orto_detalle_cabo_llanos.jpg}\\[3pt]
+      \scriptsize \textbf{Cabo Llanos (SUNC 2.5.3)}\\
+      \tiny \color{brandcoral}\textbf{25,000 $m^2$ prime lot $\to$ Dirt wasteland}
+    \end{tcolorbox}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \begin{tcolorbox}[enhanced, colback=white, colframe=brandborder, boxrule=0.8pt, arc=5pt, left=2pt, right=2pt, top=2pt, bottom=2pt]
+      \centering
+      \includegraphics[width=\linewidth, height=75mm, keepaspectratio]{figures/orto_detalle_el_tablero.jpg}\\[3pt]
+      \scriptsize \textbf{El Tablero (SUS 5.13)}\\
+      \tiny \color{brandcoral}\textbf{80,000 $m^2$ sector $\to$ Unpaved fields}
+    \end{tcolorbox}
+  \end{minipage}
+\end{minipage}
+\vspace{6pt}
+
+\begin{tcolorbox}[enhanced, colback=brandlight, colframe=brandborder, boxrule=0.6pt, arc=5pt, left=8pt, right=8pt, top=5pt, bottom=5pt]
+  \scriptsize \color{branddark}
+  \textbf{Why private development failed}: 97.7\% of units are Unconsolidated Urban Land (SUNC) with highly fragmented ownership. Private Compensation Boards dissolved or were never formed under judicial planning void.
+\end{tcolorbox}
+
+\slidefooter{Swipe $\to$}{5}
+\newpage
+
+% ==============================================================================
+% SLIDE 6: THE VERDICT & CALL TO ACTION
+% ==============================================================================
+\slideheader{CONCLUSION \& SUMMARY}{6 / 6}{An Artificial Regulatory Bottleneck}
+\vspace{-2pt}
+{\fontsize{10}{12}\selectfont \color{brandgray}What the data proves after cross-referencing GIS, FIP 2.0, and court rulings.}\\[4pt]
+
+\begin{minipage}{\linewidth}
+  \begin{minipage}[t]{0.485\linewidth}
+    \begin{tcolorbox}[enhanced, colback=red!5, colframe=brandcoral!40, boxrule=0.6pt, arc=5pt, left=6pt, right=6pt, top=6pt, bottom=6pt]
+      {\small \textbf{\color{brandcoral}The Myths (Debunked)}}\\[4pt]
+      \scriptsize
+      $\times$ \textbf{Runaway Growth}: Flat population (+2\% in 15 years).\\
+      $\times$ \textbf{Tourist Colonization}: Hotel beds under 0.8\%; cruise passengers sleep at sea.
+    \end{tcolorbox}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \begin{tcolorbox}[enhanced, colback=blue!5, colframe=brandblue!40, boxrule=0.6pt, arc=5pt, left=6pt, right=6pt, top=6pt, bottom=6pt]
+      {\small \textbf{\color{brandblue}The Real Bottleneck}}\\[4pt]
+      \scriptsize
+      $\checkmark$ \textbf{Judicial Paralysis}: PGO 2013 annulled; 2022 ordinance suspended.\\
+      $\checkmark$ \textbf{Obsolete 2005 Plan}: Stuck in a 20-year-old expired framework.
+    \end{tcolorbox}
+  \end{minipage}
+\end{minipage}
+\vspace{8pt}
+
+\begin{tcolorbox}[enhanced, colback=brandnavy, colframe=brandnavy, boxrule=0pt, arc=6pt, left=10pt, right=10pt, top=10pt, bottom=10pt]
+  \centering
+  {\fontsize{14}{17}\selectfont \textbf{\color{white}Read the Full 23-Page Technical Report}}\\[4pt]
+  {\footnotesize \color{white!80}Includes full GIS cartography, FIP 2.0 database models, and legal references.}\\[8pt]
+  \begin{tikzpicture}
+    \node [fill=brandblue, text=white, font=\bfseries\small, rounded corners=4pt, inner sep=6pt] {PDF Available in Post Comments / Download};
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\slidefooter{End of Carousel}{6}
+
+\end{document}

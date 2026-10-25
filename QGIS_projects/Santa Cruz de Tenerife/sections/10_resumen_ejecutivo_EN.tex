@@ -1,0 +1,122 @@
+\section{Executive Summary}
+% \subsection{Analysis of the 2015 PGO}
+This report analyzes the General Urban Plan (\emph{Plan General de Ordenación}, PGO) of Santa Cruz de Tenerife, approved in 2015 and currently in force, spanning a municipal surface area of approximately 153.13~km\textsuperscript{2} and a population of 222,418 inhabitants (according to 2024 data).
+
+The General Urban Plan (PGO) was annulled by the High Court of Justice of the Canary Islands (TSJC) through Ruling 116/2014~\cite{tsjc_116_2014}. Following this judicial invalidation, the municipality reverted to its prior regulatory framework, the 2005 PGOU~\cite{pgou_santacruz_2005}, and subsequently attempted an interim update by approving a Provisional Municipal Ordinance regarding the land use regime in May 2022. However, the TSJC subsequently suspended this 2022 provisional ordinance as well, through Ruling 000070/2023~\cite{tsjc_070_2023}.
+
+% El archivo FIP 2.0 analizado, correspondiente a la OPM 2022,
+% constituye el modelo normativo y programático formalmente aprobado en 2014-2015, el cual establecía un horizonte máximo de ejecución de 8 años (vencido en 2023).
+
+% The takeaway for your Introduction:
+
+% "The land crisis in Santa Cruz de Tenerife is not driven by uncontrolled population expansion, but by an artificial regulatory bottleneck: an obsolete and judicially paralyzed planning framework unable to accommodate even modest household formation, economic modernization, and tertiary transitions."
+
+% Aunque no hay fechas retrospectivas, el FIP contiene la programación temporal de ejecución futura asignada a cada UA a través de determinaciones normativas:
+
+% Determinación 0000000203: Plazos para la gestión y ejecución del planeamiento
+% Determinación 0000001103: Plazos para la ejecución del planeamiento
+% Los valores asignados a las UAs están expresados en meses (plazos legales máximos previstos):
+
+% 6 meses: 5 UAs
+% 12 meses (1 año): 113 UAs (plazo típico para presentación del proyecto de reparcelación / iniciativa de gestión privada)
+% 24 meses (2 años): 104 UAs (plazo para ejecución de proyectos de urbanización)
+% 48 meses (4 años): 93 UAs (horizonte correspondiente al 1.er Cuatrienio / 1.ª Etapa del Plan de Etapas)
+% 96 meses (8 años): 1 UA (correspondiente al 2.º Cuatrienio / 2.ª Etapa)
+
+% Since the instrument was approved in 2015 and the maximum schedule was 8 years (2023), does it mean that all UAs should be complerte by now?
+
+% **No, todo lo contrario: en la realidad material y jurídica, la inmensa mayoría de las Unidades de Actuación (UAs) de Santa Cruz de Tenerife están hoy paralizadas, inconclusas o bloqueadas.**
+
+% Que el instrumento fijase un horizonte de ejecución máximo de 8 años (cuatrienios 2015–2019 y 2019–2023) no significa que se hayan completado. Al contrario: el hecho de haber superado 2023 sin que se hayan ejecutado es la **prueba empírica definitiva del colapso y embotellamiento del marco urbanístico** que describe tu [Resumen Ejecutivo](file:///c:/dev/QGIS-testing/QGIS_projects/Santa%20Cruz%20de%20Tenerife/sections/10_resumen_ejecutivo.tex).
+
+% A continuación se explica por qué ocurrió esto desde tres perspectivas:
+
+% ---
+
+% ### 1. La Causa Jurídica: La Anulación del PGO en Cascada
+% El Plan General de Ordenación (PGO) de 2013/2015 **fue anulado de pleno derecho por los tribunales**:
+% * **Sentencia TSJC 116/2014** (ratificada en firme por el Tribunal Supremo en 2017 y con firmeza publicada en el BOC en octubre de 2020): Anuló el PGO por graves vicios en la evaluación ambiental estratégica y la catalogación masiva e indebida de decenas de miles de viviendas como *fuera de ordenación*.
+% * **Efecto dominó urbanístico**: Al anularse el instrumento general, decayeron o quedaron en precario todos los instrumentos de desarrollo derivados (proyectos de reparcelación, planes de etapas y proyectos de urbanización de las UAs). El municipio se vio forzado a retrotraerse al marco del **PGO de 2005**.
+% * **Intento fallido de 2022**: El Ayuntamiento aprobó en mayo de 2022 una Ordenanza Provisional Municipal (OPM) para intentar reactivar el régimen de usos y licencias, pero el TSJC la suspendió cautelarmente mediante la **Sentencia 000070/2023**.
+% * **Consecuencia**: Ningún promotor privado ni entidad financiera podía invertir millones de euros en urbanizar una UA ante una **inseguridad jurídica absoluta** donde cualquier licencia o reparcelación podía ser recurrida y anulada en los juzgados.
+
+% ---
+
+% ### 2. El Efecto Legal del Vencimiento de Plazos en España
+% En el derecho urbanístico español y autonómico (Arts. 154–155 y 170 y ss. de la [Ley 4/2017 del Suelo de Canarias](https://www.boe.es/buscar/act.php?id=BOE-A-2017-10295)):
+% * El vencimiento del plazo fijado en el Plan de Etapas (los 48 o 96 meses) **no extingue la UA ni la ejecuta automáticamente**.
+% * Lo que produce es una situación de **incumplimiento de plazos de la iniciativa privada**:
+%   1. La Administración municipal adquiere la potestad legal de **declarar el incumplimiento** y **sustituir el sistema de ejecución** (por ejemplo, retirar la gestión a la Junta de Compensación de propietarios privados y pasarla a ejecución pública por *Cooperación* o *Expropiación* forzosa).
+%   2. Sin embargo, en la práctica (y en Santa Cruz en particular), el Ayuntamiento carece de la capacidad presupuestaria y del músculo técnico para asumir la urbanización directa de decenas de bolsas de suelo.
+% * **Resultado habitual**: El Ayuntamiento no sustituye el sistema ni sanciona, los plazos caducan tácitamente y las UAs quedan atrapadas en un **limbo administrativo indefinido**.
+
+% ---
+
+% ### 3. La Naturaleza del Suelo: El 97,7% es Suelo Urbano No Consolidado (SUNC)
+% Como comprobamos en la base de datos `fip_pgo`:
+% * **125 de las 128 UAs (97,7%) son SUNC**, y el **58,6% de la edificabilidad lucrativa está asignada a Compensación privada**.
+% * No se trataba de suelo rústico vacío donde un único promotor llega y urbaniza con maquinaria pesada, sino de **tejido urbano intersticial complejo**:
+%   - Bolsas interiores con titularidad atomizada entre decenas de herederos y pequeños propietarios (Cabo Llanos, márgenes del Barranco de Santos, Cuesta Piedra, El Perú, Ofra, etc.).
+%   - Para iniciar la UA, la ley exige que los propietarios que representen al menos el 50–60% del suelo se pongan de acuerdo, constituyan una Junta de Compensación, financien el Proyecto de Urbanización y costeen las cesiones de viales y equipamientos públicos.
+%   - Con la crisis financiera, los activos adjudicados a bancos / SAREB y la anulación judicial del PGO, las juntas nunca llegaron a constituirse o se disolvieron.
+
+% ---
+
+% ### Conclusión para tu Documento
+% Este dato es el mejor argumento para reforzar el diagnóstico del informe:
+
+Although the PGO contractually programmed the transformation of \textbf{1.55 million $m^2$ of developable floor space (lucrative buildability)} over a maximum 8-year implementation horizon (2015–2023), the combination of judicial annulment and the paralysis of the private compensation system across unconsolidated urban land has meant that, with the statutory deadline now expired, the supply of developable land remains completely frozen, perpetuating the housing shortage across the municipality.
+
+% \subsection{Analysis of the 2022 OPM}
+
+% ### 1. ¿Qué contiene el ZIP de la OPM de 2022? (¿Sirve para ver el estado de las UAs?)
+
+% Hemos inspeccionado el archivo de metadatos `IDENTIF.TXT` y las capas SHP (`AMB.shp`, `ZUSO.shp`) de dicho archivo:
+% ```text
+% Planeamiento=Ordenanza Provisional Municipal
+% Título=Ordenanza Provisional Municipal para adaptar el régimen de usos del PGOU-05
+% Modifica=Plan General de Ordenación Urbana de Santa Cruz de Tenerife (PGOU-05)
+% FaseTramitación=Aprobación Definitiva (BOC 16/05/2022)
+% ```
+
+% **Conclusiones tras abrirlo:**
+% 1. **Modifica el PGOU de 2005, NO el PGO de 2015**:
+%    Como el PGO de 2013/2015 fue anulado por el TSJC (Sentencia 116/2014), el Ayuntamiento tuvo que acudir a la figura excepcional de la *Ordenanza Provisional Municipal* (Art. 154 de la Ley 4/2017 del Suelo) para modificar el plan que revivió: el **PGOU-05**.
+% 2. **Su contenido es puramente de zonificación de usos (`ZUSO.shp`, 4.035 recintos)**:
+%    No es una auditoría de gestión ni contiene el seguimiento de las Unidades de Actuación. Se limitó a regular qué actividades (comerciales, terciarias, residenciales) eran compatibles en cada manzana consolidada para evitar que la ciudad quedase paralizada para otorgar licencias de actividad menor.
+% 3. **Además, fue suspendida judicialmente**:
+%    Como se recoge en las conclusiones de tu documento, el TSJC **suspendió cautelarmente esta OPM en 2023 (Sentencia 070/2023)**.
+
+% Por tanto, **la OPM de 2022 no contiene información sobre el grado de desarrollo de las UAs del PGO de 2015**.
+
+% ---
+
+% ### 2. ¿Cómo podemos comprobar entonces qué se ha hecho en realidad entre 2015 y 2026?
+
+% En el urbanismo español y canario existen **tres vías complementarias y verificables** para contrastar lo programado con la realidad:
+
+% #### Vía A: La Evidencia Física Directa (Ortofoto reciente IDECanarias / PNOA en QGIS)
+% Es la prueba más rápida e incontestable:
+% - En QGIS, al superponer la capa `v_unidades_actuacion` con el servicio WMS de **Ortofoto aérea de máxima actualidad de IDECanarias / GRAFCAN (2024–2025)**:
+% - Se observa inmediatamente sobre el terreno que las grandes bolsas delimitadas (como los ámbitos de SUNC en Cabo Llanos, Cuesta Piedra, los márgenes del Barranco de Santos, o el SUS de El Tablero) **siguen siendo descampados de tierra, naves obsoletas o solares sin urbanizar**. No hay viales recepcionados, ni aceras nuevas, ni manzanas consolidadas.
+
+% #### Vía B: La Evidencia Administrativa (El Registro de Planeamiento de SITCAN)
+% Para que una Unidad de Actuación se considere "ejecutada", la legislación urbanística exige que el Ayuntamiento apruebe y publique formalmente una cadena obligatoria de hitos administrativos:
+% 1. *Aprobación de la Iniciativa y Constitución de la Junta de Compensación*
+% 2. *Aprobación Definitiva del Proyecto de Reparcelación* (inscrito en el Registro de la Propiedad)
+% 3. *Aprobación Definitiva del Proyecto de Urbanización* y *Acta de Recepción de Obras*
+
+% Si revisamos el repositorio oficial del [Registro de Planeamiento de Santa Cruz en SITCAN](file:///c:/dev/QGIS-testing/data/Santa%20Cruz%20de%20Tenerife/Planeamiento/):
+% - **Entre 2015 y 2026 no consta la aprobación ni recepción de proyectos de urbanización de estas 128 UAs**.
+% - Los únicos instrumentos tramitados han sido modificaciones puntuales aisladas de equipamientos públicos (La Salle, Puerto-Litoral Valleseco, Palacio de Deportes), un par de estudios de detalle menores (Parcela 8 del Parque Tecnológico) y el Plan Especial de El Toscal (PEPCH).
+
+% #### Vía C: La Evidencia Institucional (Diagnóstico del nuevo PGO en redacción)
+% Tras la anulación del plan, la Gerencia Municipal de Urbanismo de Santa Cruz de Tenerife licitó la redacción del **Nuevo Plan General de Ordenación**. En el *Documento Inicial Estratégico (DIE)* y los documentos de información y diagnóstico del nuevo equipo redactor, el propio Ayuntamiento reconoce oficialmente que el modelo de gestión del suelo urbano no consolidado del PGO anulado resultó inoperante y que la práctica totalidad de las bolsas quedaron bloqueadas por la inseguridad jurídica.
+
+% ---
+
+% ### 3. Recomendación de redacción para el documento
+
+% Esta distinción enriquece enormemente el rigor técnico del informe. En el texto conviene formularlo explícitamente:
+
+Cross-referencing this theoretical schedule against subsequent instruments in the Planning Register of the Canary Islands (SITCAN) and recent orthophotographic aerial coverage (IDECanarias) demonstrates that the overwhelming majority of the 128 Execution Units (\emph{Unidades de Actuación}, UAs) remain uncompleted. This proves that the expiration of statutory deadlines did not result in the materialization of the planned city, but rather in the effective paralysis of the land supply.
