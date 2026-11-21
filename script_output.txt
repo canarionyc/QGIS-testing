@@ -1,0 +1,62 @@
+**********************
+PowerShell transcript start
+Start time: 20260324175344
+Username: DORMITORIO\tglla
+RunAs User: DORMITORIO\tglla
+Configuration Name: 
+Machine: DORMITORIO (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\PowerShell-7.5.4\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\tglla\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\tglla\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\tglla\AppData\Roaming\Code\logs\20260324T144519\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\tglla\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-17332-384801.json' -FeatureFlags @() 
+Process ID: 21664
+PSVersion: 7.5.4
+PSEdition: Core
+GitCommitId: 7.5.4
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\dev\QGIS-testing\script_output.txt
+
+c:\dev\QGIS-testing>rem dir /B tmp_capa3
+
+c:\dev\QGIS-testing>if 0 NEQ 0 (
+
+ exit /b 0
+)
+
+c:\dev\QGIS-testing>REM Print the final count of affected parcels
+
+c:\dev\QGIS-testing>for /F "tokens=*" %a in ('ogrinfo -al -so "tmp_capa3\parcelas_afectadas.shp" | findstr /C:"Feature Coun
+t"') do ()
+
+c:\dev\QGIS-testing>()
+[INFO] Parcelas afectadas Feature Count: 215
+---------------------------------------------------
+[INFO] Compressing to output\capa3.zip...
+
+c:\dev\QGIS-testing>tar -a -c -C tmp_capa3 -f output\capa3.zip *
+
+c:\dev\QGIS-testing>tar -tf output\capa3.zip
+parcelas_afectadas.dbf
+parcelas_afectadas.shp
+parcelas_afectadas.shx
+
+c:\dev\QGIS-testing>REM Note: The assignment says to save them in capa3 and compress it.
+
+c:\dev\QGIS-testing>REM If you want to delete the unzipped folder after compressing, remove the "REM" below:
+
+c:\dev\QGIS-testing>REM rmdir /s /q tmp_capa3
+[SUCCESS] Parcelas afectadas spatial join completed and zipped
+
+c:\dev\QGIS-testing>endlocal
+**********************
+PowerShell transcript end
+End time: 20260324175345
+**********************

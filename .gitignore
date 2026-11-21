@@ -286,3 +286,8 @@ temp/
 QGIS_projects/*/*_files/*
 *.html
 *.pgw
+/QGIS_projects/La Palma/Tajagoite/La_Palma_Proyecto_Resumen_ES_files
+/QGIS_projects/Modulo2/parcelas_abandono_prolongado/parcelas_abandono_prolongado_files
+*.svg
+tarea2.txt
+tarea2.md
